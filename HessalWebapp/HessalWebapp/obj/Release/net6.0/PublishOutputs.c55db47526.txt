@@ -1,0 +1,7 @@
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\HessalWebapp.exe
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\HessalWebapp.dll
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\HessalWebapp.deps.json
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\HessalWebapp.runtimeconfig.json
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\PubTmp\Out\HessalWebapp.pdb
