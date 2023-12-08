@@ -297,6 +297,26 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\fonts\\et-line\\.DS_Store",
+      "PackagePath": "staticwebassets\\lib\\fonts\\et-line\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\fonts\\et-line\\et-line.eot",
+      "PackagePath": "staticwebassets\\lib\\fonts\\et-line\\et-line.eot"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\fonts\\et-line\\et-line.svg",
+      "PackagePath": "staticwebassets\\lib\\fonts\\et-line\\et-line.svg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\fonts\\et-line\\et-line.ttf",
+      "PackagePath": "staticwebassets\\lib\\fonts\\et-line\\et-line.ttf"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\fonts\\et-line\\et-line.woff",
+      "PackagePath": "staticwebassets\\lib\\fonts\\et-line\\et-line.woff"
+    },
+    {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -3077,320 +3097,760 @@
       "PackagePath": "staticwebassets\\lib\\node_modules\\outlayer\\test\\unit\\transition-duration.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\.bower.json",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\.bower.json"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\.gitattributes",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\.gitattributes"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\.travis.yml",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\.travis.yml"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\README.md",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\README.md"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\CONTRIBUTING.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\css\\bootstrapTheme.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\css\\bootstrapTheme.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\Gruntfile.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\css\\custom.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\css\\custom.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\ISSUE_TEMPLATE.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\css\\responsive.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\css\\responsive.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-114-precomposed.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-114-precomposed.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\README.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\README.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-144-precomposed.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-144-precomposed.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\ROADMAP.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\ROADMAP.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-57-precomposed.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-57-precomposed.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\_config.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\_config.json"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-72-precomposed.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\ico\\apple-touch-icon-72-precomposed.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\bower.json"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\ico\\favicon.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\ico\\favicon.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\AjaxLoader.gif",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\AjaxLoader.gif"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\README.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\README.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\controls.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\controls.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\css3.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\css3.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\feather.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\feather.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\grab.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\grab.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\modern.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\modern.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\multi.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\multi.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\responsive.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\responsive.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\tons.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\tons.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\touch.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\touch.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\owl.carousel.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\zombie.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\demo-slides\\zombie.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\dist\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings-green.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings-green.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\css\\animate.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings-white.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings-white.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\css\\docs.theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\css\\docs.theme.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\glyphicons-halflings.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\bird_blue_32.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\img\\owl-logo.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\img\\owl-logo.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\download.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\application.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\application.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-drag.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-collapse.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-collapse.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-modern.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-tab.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-tab.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-module.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-transition.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\bootstrap-transition.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-options.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\prettify.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\prettify.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-responsive.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\prettify.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\prettify.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\feature-zombie.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\run_prettify.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\google-code-prettify\\run_prettify.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\owl-logo.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\assets\\js\\jquery-1.9.1.min.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\assets\\js\\jquery-1.9.1.min.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\img\\twitter_25.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage1.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage1.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\js\\app.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage2.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage2.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\js\\foundation.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage3.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage3.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\README.md",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\README.md"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage4.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage4.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage5.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage5.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage6.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage6.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage7.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\fullimage7.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl1.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl1.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl2.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl2.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl3.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl3.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl4.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl4.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl5.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl5.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl6.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl6.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl7.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl7.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\foundation.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl8.jpg",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\assets\\owl8.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\highlight.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\autoHeight.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\autoHeight.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\click.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\click.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.min.map"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\custom.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\custom.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\customJson.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\customJson.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\animate.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\animate.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\full.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\full.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\autoheight.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\autoheight.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\images.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\images.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\autoplay.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\autoplay.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\itemsCustom.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\itemsCustom.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\autowidth.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\autowidth.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\json.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\json.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\basic.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\basic.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\json\\customData.json",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\json\\customData.json"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\center.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\center.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\json\\data.json",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\json\\data.json"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\demos.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\demos.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\lazyLoad.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\lazyLoad.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\events.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\events.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\manipulations.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\manipulations.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\lazyLoad.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\lazyLoad.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\navOnTop.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\navOnTop.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\merge.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\merge.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\navOnTop2.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\navOnTop2.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\mousewheel.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\mousewheel.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\one.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\one.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\responsive.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\responsive.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\owlStatus.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\owlStatus.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\rtl.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\rtl.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\progressBar.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\progressBar.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\stagepadding.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\stagepadding.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\randomOrder.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\randomOrder.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\test.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\test.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\scaleup.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\scaleup.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\urlhashnav.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\urlhashnav.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\sync.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\sync.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\demos\\video.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\demos\\video.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\demos\\transitions.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\demos\\transitions.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-classes.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-classes.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\index.html",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\index.html"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-events.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-events.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\AjaxLoader.gif",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\AjaxLoader.gif"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-options.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\api-options.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\grabbing.png",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\grabbing.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-buildin-plugins.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-buildin-plugins.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-external.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-external.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-plugin-api.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-plugin-api.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.min.js",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.carousel.min.js"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-styles.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\dev-styles.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.theme.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.theme.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-faq.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-faq.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.transitions.css",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\owl-carousel\\owl.transitions.css"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-installation.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-installation.html"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl-carousel\\package.json",
-      "PackagePath": "staticwebassets\\lib\\node_modules\\owl-carousel\\package.json"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-welcome.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\started-welcome.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-changelog.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-changelog.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-contact.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-contact.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-contributing.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\docs\\support-contributing.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs\\index.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs\\index.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\bird_blue_32.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\download.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-drag.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-modern.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-module.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-options.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-responsive.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\feature-zombie.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\owl-logo.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\img\\twitter_25.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\_settings.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\_settings.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\custom.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\custom.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\demos.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\demos.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\docs.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\docs.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\docs.theme.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\docs.theme.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\highlight.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\scss\\highlight.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\highlight.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\data\\classes.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\data\\classes.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\data\\events.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\data\\events.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\data\\features.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\data\\features.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\data\\options.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\data\\options.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\helpers\\modulo.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\helpers\\modulo.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\helpers\\test.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\helpers\\test.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\demos.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\docs.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\docs.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\home.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\layouts\\home.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\animate.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\animate.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\basic.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\basic.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\center.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\center.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\demos.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\events.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\events.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\merge.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\merge.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\responsive.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\responsive.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\rtl.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\rtl.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\test.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\test.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\video.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\demos\\video.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-events.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-events.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-options.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-options.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\index.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\pages\\index.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\footer.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\footer.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\head.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\head.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\header.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\header.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-carousel.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-carousel.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-features.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-features.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-hero.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-hero.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-teaser-text.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\home-teaser-text.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\javascripts.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\javascripts.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\releated-docs.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\releated-docs.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\sidenav-docs.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\sidenav-docs.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\title.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\title.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\vendors.hbs",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\docs_src\\templates\\partials\\vendors.hbs"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\package.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\package.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\img\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\img\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\.jscsrc",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\.jscsrc"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\.jshintrc",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\.jshintrc"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.animate.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.animate.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autoheight.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autoheight.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autoplay.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autoplay.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autorefresh.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.autorefresh.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.hash.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.hash.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.lazyload.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.lazyload.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.navigation.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.navigation.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.support.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.support.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.support.modernizr.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.support.modernizr.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\js\\owl.video.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\js\\owl.video.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_animate.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_animate.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_autoheight.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_autoheight.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_lazyload.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_lazyload.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.default.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.default.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.green.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.green.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\_video.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\_video.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.carousel.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.theme.default.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.theme.default.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.theme.green.scss",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\src\\scss\\owl.theme.green.scss"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\test\\index.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\test\\index.html"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\test\\unit\\autoplay.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\test\\unit\\autoplay.js"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\node_modules\\owl.carousel\\test\\unit\\core.js",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\owl.carousel\\test\\unit\\core.js"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\package-lock.json",
@@ -5377,12 +5837,104 @@
       "PackagePath": "staticwebassets\\lib\\src\\bg\\team-01.webp"
     },
     {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-01_1.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-01_1.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-02.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-02_2.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-02_2.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-03.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-03_3.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-03_3.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-04.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-04_4.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-04_4.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-05.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-05.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-05_5.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-05_5.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-06.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-06.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-06_6.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-06_6.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-07.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-07.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-07_7.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-07_7.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-08.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-08.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-08_8.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-08_8.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-09.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-09.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-09_9.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-09_9.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-10.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-10.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-10_10.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-10_10.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-11.png",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-11.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-11_11.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-11_11.jpg"
+    },
+    {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-120.png",
       "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-120.png"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-152.png",
       "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-152.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-32-Branded.png",
+      "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-32-Branded.png"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-32.png",
@@ -5393,8 +5945,36 @@
       "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-60.png"
     },
     {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-76-Branded.png",
+      "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-76-Branded.png"
+    },
+    {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-76.png",
       "PackagePath": "staticwebassets\\lib\\src\\logos\\Hessal-76.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\partners\\DandS-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\partners\\DandS-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\partners\\Mara Elatia.png",
+      "PackagePath": "staticwebassets\\lib\\src\\partners\\Mara Elatia.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\partners\\SAF-01.png",
+      "PackagePath": "staticwebassets\\lib\\src\\partners\\SAF-01.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\partners\\TheHubKaren.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\partners\\TheHubKaren.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\FP-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\FP-02.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Fitting-1_1.webp",
@@ -5427,6 +6007,70 @@
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-9.webp",
       "PackagePath": "staticwebassets\\lib\\src\\project\\Image-9.webp"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-02.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-03.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-04.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-05.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-05.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-06.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-06.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-07.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-07.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-08.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-08.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-09.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-09.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-10.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-10.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-11.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-11.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-12.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-12.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-13.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-13.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-14.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-14.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-15.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-15.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-16.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-16.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Leak-Detection.webp",
@@ -5479,6 +6123,78 @@
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Tigris-2_1.webp",
       "PackagePath": "staticwebassets\\lib\\src\\project\\Tigris-2_1.webp"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\team\\Godfrey-01_1.webp",
+      "PackagePath": "staticwebassets\\lib\\src\\team\\Godfrey-01_1.webp"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\team\\Samuel-01_1.webp",
+      "PackagePath": "staticwebassets\\lib\\src\\team\\Samuel-01_1.webp"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\team\\Timothy-Vera-Simiyu.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\team\\Timothy-Vera-Simiyu.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\E-Vision.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\E-Vision.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Eagle Vision.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Eagle Vision.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Mission.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Mission.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Mission.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Mission.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Team-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Team-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Team-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Team-02.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\Team-02.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\Team-02.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\focus-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\focus-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\focus-01.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\focus-01.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\hardwork-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\hardwork-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\hardwork-01.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\hardwork-01.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\innovation-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\innovation-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\innovation-01.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\innovation-01.png"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\integrity-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\integrity-01.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\values\\integrity-01.png",
+      "PackagePath": "staticwebassets\\lib\\src\\values\\integrity-01.png"
     },
     {
       "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.HessalWebapp.Microsoft.AspNetCore.StaticWebAssets.props",

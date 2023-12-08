@@ -161,23 +161,24 @@ $(document).ready(function () {
 
     Pipebuild.init();
 
-/* Animation SlideIn */
-    var animationDone = false;
+    /* Animation SlideIn */
+    if ($(".contact-box").length > 0) {
+        var animationDone = false;
 
-    $(window).scroll(function () {
+        $(window).scroll(function () {
 
-        if (!animationDone) {
-            var scrollPos = $(window).scrollTop();
-            var contactBox = $(".contact-box");
+            if (!animationDone) {
+                var scrollPos = $(window).scrollTop();
+                var contactBox = $(".contact-box");
+                var sectionOffset = contactBox.offset().top;
 
-            // Adjust the threshold based on your layout
-            if (scrollPos > 700) {
-                contactBox.removeClass("is-notvisible").addClass("animated slideInDown");
-                animationDone = true;
-            } 
-        }       
-    });
-
+                if (scrollPos > sectionOffset - $(window).height() / 2) {
+                    contactBox.removeClass("is-notvisible").addClass("animated slideInDown");
+                    animationDone = true;
+                }
+            }
+        });
+    }
 
     /* Sticky Setting */
     $(function () {
@@ -198,7 +199,6 @@ $(document).ready(function () {
             $(".navbar-sticky").removeClass('bg-light');
         }
     });
-
 
     /* Count */
     $(function () {

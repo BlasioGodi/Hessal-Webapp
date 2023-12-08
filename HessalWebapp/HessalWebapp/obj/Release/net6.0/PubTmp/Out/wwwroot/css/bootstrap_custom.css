@@ -4556,7 +4556,7 @@ textarea.form-control-lg {
 }
 
 .card, .card-shadow:hover,
-.card-shadow:focus, .card-shadow, .card-no-bg {
+.card-shadow:focus, .card-shadow, .card-bg {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -4589,28 +4589,28 @@ textarea.form-control-lg {
   border-radius: var(--bs-card-border-radius);
 }
 .card > hr, .card-shadow:hover > hr,
-.card-shadow:focus > hr, .card-shadow > hr, .card-no-bg > hr {
+.card-shadow:focus > hr, .card-shadow > hr, .card-bg > hr {
   margin-right: 0;
   margin-left: 0;
 }
-.card > .list-group, .card-shadow > .list-group, .card-no-bg > .list-group {
+.card > .list-group, .card-shadow > .list-group, .card-bg > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
-.card > .list-group:first-child, .card-shadow > .list-group:first-child, .card-no-bg > .list-group:first-child {
+.card > .list-group:first-child, .card-shadow > .list-group:first-child, .card-bg > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
-.card > .list-group:last-child, .card-shadow > .list-group:last-child, .card-no-bg > .list-group:last-child {
+.card > .list-group:last-child, .card-shadow > .list-group:last-child, .card-bg > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
-.card > .card-header + .list-group, .card-shadow > .card-header + .list-group, .card-no-bg > .card-header + .list-group,
+.card > .card-header + .list-group, .card-shadow > .card-header + .list-group, .card-bg > .card-header + .list-group,
 .card > .list-group + .card-footer,
 .card-shadow > .list-group + .card-footer,
-.card-no-bg > .list-group + .card-footer {
+.card-bg > .list-group + .card-footer {
   border-top: 0;
 }
 
@@ -4620,7 +4620,7 @@ textarea.form-control-lg {
   color: var(--bs-card-color);
 }
 
-.card-title {
+.card-title, .card-text-title {
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color);
 }
@@ -4707,7 +4707,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-.card-group > .card, .card-group > .card-shadow, .card-group > .card-no-bg {
+.card-group > .card, .card-group > .card-shadow, .card-group > .card-bg {
   margin-bottom: var(--bs-card-group-margin);
 }
 @media (min-width: 576px) {
@@ -4715,50 +4715,50 @@ textarea.form-control-lg {
     display: flex;
     flex-flow: row wrap;
   }
-  .card-group > .card, .card-group > .card-shadow, .card-group > .card-no-bg {
+  .card-group > .card, .card-group > .card-shadow, .card-group > .card-bg {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  .card-group > .card + .card, .card-group > .card-shadow + .card, .card-group > .card + .card-shadow, .card-group > .card-shadow + .card-shadow, .card-group > .card-no-bg + .card, .card-group > .card-no-bg + .card-shadow, .card-group > .card + .card-no-bg, .card-group > .card-shadow + .card-no-bg, .card-group > .card-no-bg + .card-no-bg {
+  .card-group > .card + .card, .card-group > .card-shadow + .card, .card-group > .card + .card-shadow, .card-group > .card-shadow + .card-shadow, .card-group > .card-bg + .card, .card-group > .card-bg + .card-shadow, .card-group > .card + .card-bg, .card-group > .card-shadow + .card-bg, .card-group > .card-bg + .card-bg {
     margin-left: 0;
     border-left: 0;
   }
-  .card-group > .card:not(:last-child), .card-group > .card-shadow:not(:last-child), .card-group > .card-no-bg:not(:last-child) {
+  .card-group > .card:not(:last-child), .card-group > .card-shadow:not(:last-child), .card-group > .card-bg:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-top, .card-group > .card-shadow:not(:last-child) .card-img-top, .card-group > .card:not(:last-child) .card-img-no-rad, .card-group > .card-shadow:not(:last-child) .card-img-no-rad,
   .card-group > .card:not(:last-child) .card-img-top-no-rad,
-  .card-group > .card-shadow:not(:last-child) .card-img-top-no-rad, .card-group > .card-no-bg:not(:last-child) .card-img-top, .card-group > .card-no-bg:not(:last-child) .card-img-no-rad,
-  .card-group > .card-no-bg:not(:last-child) .card-img-top-no-rad,
+  .card-group > .card-shadow:not(:last-child) .card-img-top-no-rad, .card-group > .card-bg:not(:last-child) .card-img-top, .card-group > .card-bg:not(:last-child) .card-img-no-rad,
+  .card-group > .card-bg:not(:last-child) .card-img-top-no-rad,
   .card-group > .card:not(:last-child) .card-header,
   .card-group > .card-shadow:not(:last-child) .card-header,
-  .card-group > .card-no-bg:not(:last-child) .card-header {
+  .card-group > .card-bg:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .card-shadow:not(:last-child) .card-img-bottom, .card-group > .card-no-bg:not(:last-child) .card-img-bottom,
+  .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .card-shadow:not(:last-child) .card-img-bottom, .card-group > .card-bg:not(:last-child) .card-img-bottom,
   .card-group > .card:not(:last-child) .card-footer,
   .card-group > .card-shadow:not(:last-child) .card-footer,
-  .card-group > .card-no-bg:not(:last-child) .card-footer {
+  .card-group > .card-bg:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:first-child), .card-group > .card-shadow:not(:first-child), .card-group > .card-no-bg:not(:first-child) {
+  .card-group > .card:not(:first-child), .card-group > .card-shadow:not(:first-child), .card-group > .card-bg:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-top, .card-group > .card-shadow:not(:first-child) .card-img-top, .card-group > .card:not(:first-child) .card-img-no-rad, .card-group > .card-shadow:not(:first-child) .card-img-no-rad,
   .card-group > .card:not(:first-child) .card-img-top-no-rad,
-  .card-group > .card-shadow:not(:first-child) .card-img-top-no-rad, .card-group > .card-no-bg:not(:first-child) .card-img-top, .card-group > .card-no-bg:not(:first-child) .card-img-no-rad,
-  .card-group > .card-no-bg:not(:first-child) .card-img-top-no-rad,
+  .card-group > .card-shadow:not(:first-child) .card-img-top-no-rad, .card-group > .card-bg:not(:first-child) .card-img-top, .card-group > .card-bg:not(:first-child) .card-img-no-rad,
+  .card-group > .card-bg:not(:first-child) .card-img-top-no-rad,
   .card-group > .card:not(:first-child) .card-header,
   .card-group > .card-shadow:not(:first-child) .card-header,
-  .card-group > .card-no-bg:not(:first-child) .card-header {
+  .card-group > .card-bg:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .card-shadow:not(:first-child) .card-img-bottom, .card-group > .card-no-bg:not(:first-child) .card-img-bottom,
+  .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .card-shadow:not(:first-child) .card-img-bottom, .card-group > .card-bg:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer,
   .card-group > .card-shadow:not(:first-child) .card-footer,
-  .card-group > .card-no-bg:not(:first-child) .card-footer {
+  .card-group > .card-bg:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -13174,12 +13174,14 @@ textarea.form-control-lg {
   color: white;
 }
 
-.card-no-bg {
+.card-bg {
   background-color: transparent;
   border-radius: 0;
-  background-image: url("/src/img/slider/Plumb-01.jpg");
+  background-image: url("/lib/src/project/Photo-13.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: fit-content;
+  min-height: 30rem;
 }
 
 .card-img-no-rad,
@@ -13211,7 +13213,7 @@ textarea.form-control-lg {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/src/img/slider/Plumb-01.jpg");
+  background-image: url("/lib/src/project/LP-10.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13349,6 +13351,27 @@ textarea.form-control-lg {
 
 .btn-close {
   --bs-btn-close-focus-shadow: none;
+}
+
+.card-text-title {
+  font-family: var(--bs-title-font-family);
+  font-weight: 400;
+}
+
+.et-icon-color {
+  color: #f89a4b;
+}
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 575px) {
+  .card-bg {
+    min-height: 25rem;
+  }
+}
+@media (min-width: 768px) {
+  .card-bg {
+    min-height: 30rem;
+  }
 }
 
 /*# sourceMappingURL=bootstrap_custom.css.map */

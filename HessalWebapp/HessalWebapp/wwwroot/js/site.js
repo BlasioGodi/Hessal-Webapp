@@ -12,7 +12,6 @@ window.addEventListener("load", () => {
     })
 });
 
-
 /* OffCanvas Menu Button */
 var offCanvasButton = document.getElementById("offcanvasButton")
 var menu = document.getElementById("menu");
@@ -30,6 +29,26 @@ navButtonclose.addEventListener('click', () => {
     collapseSolutions.classList.remove('show');
 });
 
+///* Vision-Mission Overlay Animation */
+//const visionOverlay = document.getElementById("vision-overlay");
+//const missionOverlay = document.getElementById("mission-overlay");
+
+//visionOverlay.addEventListener('mouseenter', () => {
+//    visionOverlay.classList.add("animated", "flipInX", "visible");
+//})
+
+//visionOverlay.addEventListener('mouseleave', () => {
+//    visionOverlay.classList.remove("animated", "flipInX", "visible");
+//})
+
+//missionOverlay.addEventListener('mouseenter', () => {
+//    missionOverlay.classList.add("animated", "flipInX", "visible");
+//})
+
+//missionOverlay.addEventListener('mouseleave', () => {
+//    missionOverlay.classList.remove("animated", "flipInX", "visible");
+//})
+
 /* OffCanvas Custom Overlay */
 function toggleOffcanvas() {
     var offcanvas = document.getElementById('offcanvasHessal');
@@ -41,7 +60,6 @@ function toggleOffcanvas() {
 // Event Listener
 document.getElementById('offcanvasButton').addEventListener('click', toggleOffcanvas);
 document.getElementById('nav-button-close').addEventListener('click', toggleOffcanvas);
-
 
 /* Button Submit */
 const PIP_EL = {
@@ -161,23 +179,24 @@ $(document).ready(function () {
 
     Pipebuild.init();
 
-/* Animation SlideIn */
-    var animationDone = false;
+    /* Animation SlideIn */
+    if ($(".contact-box").length > 0) {
+        var animationDone = false;
 
-    $(window).scroll(function () {
+        $(window).scroll(function () {
 
-        if (!animationDone) {
-            var scrollPos = $(window).scrollTop();
-            var contactBox = $(".contact-box");
+            if (!animationDone) {
+                var scrollPos = $(window).scrollTop();
+                var contactBox = $(".contact-box");
+                var sectionOffset = contactBox.offset().top;
 
-            // Adjust the threshold based on your layout
-            if (scrollPos > 700) {
-                contactBox.removeClass("is-notvisible").addClass("animated slideInDown");
-                animationDone = true;
-            } 
-        }       
-    });
-
+                if (scrollPos > sectionOffset - $(window).height() / 2) {
+                    contactBox.removeClass("is-notvisible").addClass("animated slideInDown");
+                    animationDone = true;
+                }
+            }
+        });
+    }
 
     /* Sticky Setting */
     $(function () {
@@ -198,7 +217,6 @@ $(document).ready(function () {
             $(".navbar-sticky").removeClass('bg-light');
         }
     });
-
 
     /* Count */
     $(function () {

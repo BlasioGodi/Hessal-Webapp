@@ -3,7 +3,10 @@
 <div class="container-fluid navbar-container">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-sticky br-10 " id="nav-bg">
         <a class="navbar-brand" asp-area="" asp-page="/Index">
-            <img src="~/lib/src/logos/Hessal-76.png" class="d-inline-block align-text-center mx-2 navbar-img" alt="Hessal Logo" /><strong class="collapse collapse-horizontal">Hessal</strong>
+            <!--Smaller Screens-->
+            <img src="~/lib/src/logos/Hessal-76.png" class="d-inline-block align-text-center mx-2 navbar-img d-sm-none" alt="Hessal Logo" />
+            <!--Larger Screens-->
+            <img src="~/lib/src/logos/Hessal-76-Branded.png" class="d-inline-block align-text-center mx-2 navbar-img d-none d-sm-block" alt="Hessal Logo" />
         </a>
         <button class="navbar-toggler button-menu-wrap" id="offcanvasButton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHessal"
                 aria-controls="offcanvasHessal" aria-label="Toggle navigation">
@@ -37,11 +40,11 @@
                 <li class="nav-item mx-2 navbar-projects-menu">
                     <a class="nav-link nav-link-active ">Projects</a>
                     <ul>
-                        <li><a href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
-                        <li><a href="#">Project 4</a></li>
-                        <li><a href="#">Project 5</a></li>
+                        <li><a aria-current="page" asp-area="" asp-page="/Projects">Project 1</a></li>
+                        <li><a aria-current="page" asp-area="" asp-page="/Projects">Project 2</a></li>
+                        <li><a aria-current="page" asp-area="" asp-page="/Projects">Project 3</a></li>
+                        <li><a aria-current="page" asp-area="" asp-page="/Projects">Project 4</a></li>
+                        <li><a aria-current="page" asp-area="" asp-page="/Projects">Project 5</a></li>
                     </ul>
                 </li>
                 <li class="nav-item mx-2 navbar-knowledge-menu">
@@ -67,8 +70,8 @@
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasHessalLabel">
             <a class="navbar-brand" href="index.html">
-                <img src="~/lib/src/logos/Hessal-32.png" alt="Hessal Logo"
-                     class="d-inline-block align-text-center mx-2" /><strong>Hessal Solutions</strong>
+                <img src="~/lib/src/logos/Hessal-32-Branded.png" alt="Hessal Logo"
+                     class="d-inline-block align-text-center mx-2" />
             </a>
         </h5>
         <button type="button" class="btn-close" id="nav-button-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
