@@ -13110,8 +13110,8 @@ textarea.form-control-lg {
 }
 :root {
   --bs-title-font-family: "Oswald", sans-serif;
-  --bs-header-font-family: "Unna", serif;
-  --bs-body-font-family: "Unna", serif;
+  --bs-header-font-family: "Rethink Sans", sans-serif;
+  --bs-body-font-family: "Rethink Sans", sans-serif;
   --bs-border-primary: 248, 154, 75;
   --bs-border-black: 0,0,0;
 }
@@ -13177,7 +13177,7 @@ textarea.form-control-lg {
 .card-bg {
   background-color: transparent;
   border-radius: 0;
-  background-image: url("/lib/src/project/Photo-13.webp");
+  background-image: url("/lib/src/project/Photo-13.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-width: fit-content;

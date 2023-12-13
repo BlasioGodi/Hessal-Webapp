@@ -509,6 +509,12 @@ label {
     font-size: 1.2rem;
 }
 
+.div-height{
+   min-height: 50vh;
+}
+
+
+
 /* 1.10 Color Setting */
 
 .color-red {
@@ -1512,6 +1518,25 @@ body.offcanvas-open {
     padding: 20.2vmin 0 20vmin;
 }
 
+.background-bg {
+    background: url('/lib/src/project/lp-14.jpg')no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    min-height: 30vh;
+}
+
+.main-header {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: right !important;
+    padding-left: 38.5vmin;
+    font-size: 55px;
+    font-weight: 800;
+    font-family: var(--bs-title-font-family);
+    line-height: 65px;
+}
+
 /* 4.2 Swiper */
 .swiper {
     width: 300px;
@@ -1534,9 +1559,57 @@ body.offcanvas-open {
     }
 
 .company-bg {
-    background: url('../lib/src/project/image-6.webp') no-repeat fixed;
+    background: url('../lib/src/project/image-6.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 30vh;
+}
+
+.image-col{
+    max-width: 23rem;
+}
+
+.content-col {
+    position: relative;
+    max-width: 23rem;
+    min-height: 27rem;
+}
+
+.overlay {
+    width: 100%;
+    max-width: 23rem;
+    perspective: 1000px; /* Specify the perspective for the 3D effect */
+}
+
+.overlay-content {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Preserve 3D transformations for child elements */
+    transition: transform 0.5s ease; /* Add transition for smooth animation */
+}
+
+.overlay:hover .overlay-content {
+    transform: rotateY(180deg); /* Flip the element on hover */
+}
+
+/* Front and back faces of the overlay */
+.overlay-front, .overlay-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Hide the back face during rotation */
+}
+
+.overlay-front {
+    padding: 3rem 0.7rem 3rem;
+    background-color:var(--theme-color);
+}
+
+.overlay-back {
+    transform: rotateY(180deg); /* Initially rotate to the back face */
+}
+
+.overlay-box-shadow {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
 }
 
 .image-box {
@@ -1718,6 +1791,7 @@ body.offcanvas-open {
     width: 100%;
     text-align: center;
     padding-top: 80px;
+    padding-bottom:25px;
 }
 
     .load-more-items a {
@@ -1728,7 +1802,7 @@ body.offcanvas-open {
     }
 
         .load-more-items a:hover {
-            color: rgb(73, 132, 184);
+            color: var(--theme-color);
             text-decoration: none;
         }
 
@@ -1793,13 +1867,13 @@ body.offcanvas-open {
             .options ul li:hover {
                 border-radius: 10px;
                 color: white;
-                background-color: rgb(73, 132, 184);
+                background-color: var(--theme-color);
             }
 
             .options ul li:focus {
                 border-radius: 10px;
                 color: white;
-                background-color: rgb(73, 132, 184);
+                background-color: var(--theme-color);
             }
 
 .item-info {
@@ -2247,7 +2321,6 @@ body.offcanvas-open {
 
 /* 10.2 Forms */
 
-
 /* 10.3 Background Map*/
 .bg-map,
 .bg-map iframe {
@@ -2426,8 +2499,6 @@ footer .no-icon-list:last-child a {
 
 @media (max-width: 375px) {
     .background-bg {
-        background: url("/src/logos/PB-01_250.png") no-repeat fixed;
-        background-position: center 95px;
         min-height: 40vh;
     }
     .section-landing {
@@ -2458,8 +2529,6 @@ footer .no-icon-list:last-child a {
 
 @media (min-width: 375px) and (max-width: 414px) {
     .background-bg {
-        background: url("/src/logos/PB-01_300.png") no-repeat fixed;
-        background-position: center 95px;
         min-height: 40vh;
     }
 
@@ -2487,8 +2556,6 @@ footer .no-icon-list:last-child a {
 
 @media (min-width: 414px) and (max-width: 576px) {
     .background-bg {
-        background: url("/src/logos/PB-01_300.png") no-repeat fixed;
-        background-position: center 95px;
         min-height: 40vh;
     }
 
@@ -2619,8 +2686,6 @@ footer .no-icon-list:last-child a {
 
 @media (min-width: 576px) and (max-width: 780px) {
     .background-bg {
-        background: url("/src/logos/PB-01_300.png") no-repeat fixed;
-        background-position: center 95px;
         min-height: 30vh;
     }
 
@@ -2679,8 +2744,6 @@ footer .no-icon-list:last-child a {
 
 @media (min-width: 780px) and (max-width: 920px) {
     .background-bg {
-        background: url("/src/logos/PB-01_600.png") no-repeat fixed;
-        background-position: center 80px;
         min-height: 30vh;
     }
 
@@ -2727,8 +2790,6 @@ footer .no-icon-list:last-child a {
 
 @media (min-width: 920px) and (max-width: 1180px) {
     .background-bg {
-        background: url("/src/logos/PB-01_400.png") no-repeat fixed;
-        background-position: center 90px;
         min-height: 30vh;
     }
 
@@ -2764,8 +2825,6 @@ footer .no-icon-list:last-child a {
     }
 
     .background-bg {
-        background: url("/src/logos/PB-01_400.png") no-repeat fixed;
-        background-position: center 95px;
         min-height: 30vh;
     }
 
@@ -2779,12 +2838,6 @@ footer .no-icon-list:last-child a {
 }
 
 @media (min-width: 1800px) {
-    .background-bg {
-        background: url("/src/logos/PB-01_500.png") no-repeat fixed;
-        background-position: center 95px;
-        min-height: 30vh;
-    }
-
     .container-contacts {
         width: 50%;
     }

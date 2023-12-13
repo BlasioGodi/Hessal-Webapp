@@ -5917,12 +5917,28 @@
       "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-10_10.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-11.png",
-      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-11.png"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-11.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-11.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-11_11.jpg",
       "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-11_11.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-12.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-12.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-12_12.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-12_12.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-13.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-13.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\gallery\\P-13_13.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\gallery\\P-13_13.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\logos\\Hessal-120.png",
@@ -5981,44 +5997,12 @@
       "PackagePath": "staticwebassets\\lib\\src\\project\\Fitting-1_1.webp"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-11.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-11.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-14.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-14.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-12.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-12.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-13.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-13.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-14.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-14.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-15.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-15.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-6.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-6.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-9.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-9.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-01.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-01.jpg"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-02.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-02.jpg"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-03.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-03.jpg"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-6.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Image-6.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.jpg",
@@ -6053,14 +6037,6 @@
       "PackagePath": "staticwebassets\\lib\\src\\project\\LP-11.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-12.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-12.jpg"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-13.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-13.jpg"
-    },
-    {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-14.jpg",
       "PackagePath": "staticwebassets\\lib\\src\\project\\LP-14.jpg"
     },
@@ -6085,36 +6061,44 @@
       "PackagePath": "staticwebassets\\lib\\src\\project\\Pexal-Pipe_1.webp"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-1.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-1.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-10.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-10.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-13.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-13.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-11.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-11.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-13_1.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-13_1.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-12.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-12.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-13.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-13.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-16.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-16.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-16.webp",
       "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-16.webp"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-16_1.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-16_1.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-17.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-17.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-19.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-19.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-19.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-19.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-19_1.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-19_1.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-21.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-21.jpg"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-1_1.webp",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-1_1.webp"
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Photo-22.jpg",
+      "PackagePath": "staticwebassets\\lib\\src\\project\\Photo-22.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Tigris-1_1.webp",

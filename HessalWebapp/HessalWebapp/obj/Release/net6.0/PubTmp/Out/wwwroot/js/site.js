@@ -12,7 +12,6 @@ window.addEventListener("load", () => {
     })
 });
 
-
 /* OffCanvas Menu Button */
 var offCanvasButton = document.getElementById("offcanvasButton")
 var menu = document.getElementById("menu");
@@ -30,6 +29,26 @@ navButtonclose.addEventListener('click', () => {
     collapseSolutions.classList.remove('show');
 });
 
+///* Vision-Mission Overlay Animation */
+//const visionOverlay = document.getElementById("vision-overlay");
+//const missionOverlay = document.getElementById("mission-overlay");
+
+//visionOverlay.addEventListener('mouseenter', () => {
+//    visionOverlay.classList.add("animated", "flipInX", "visible");
+//})
+
+//visionOverlay.addEventListener('mouseleave', () => {
+//    visionOverlay.classList.remove("animated", "flipInX", "visible");
+//})
+
+//missionOverlay.addEventListener('mouseenter', () => {
+//    missionOverlay.classList.add("animated", "flipInX", "visible");
+//})
+
+//missionOverlay.addEventListener('mouseleave', () => {
+//    missionOverlay.classList.remove("animated", "flipInX", "visible");
+//})
+
 /* OffCanvas Custom Overlay */
 function toggleOffcanvas() {
     var offcanvas = document.getElementById('offcanvasHessal');
@@ -41,7 +60,6 @@ function toggleOffcanvas() {
 // Event Listener
 document.getElementById('offcanvasButton').addEventListener('click', toggleOffcanvas);
 document.getElementById('nav-button-close').addEventListener('click', toggleOffcanvas);
-
 
 /* Button Submit */
 const PIP_EL = {
