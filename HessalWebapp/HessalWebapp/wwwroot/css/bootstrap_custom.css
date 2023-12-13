@@ -13293,7 +13293,7 @@ textarea.form-control-lg {
 .owl-nav .owl-next {
   position: absolute;
   top: calc(50% - 25px);
-  right: 0;
+  right: -20px;
   opacity: 1;
   font-size: 30px !important;
   z-index: 1;
@@ -13302,7 +13302,7 @@ textarea.form-control-lg {
 .owl-nav .owl-prev {
   position: absolute;
   top: calc(50% - 25px);
-  left: 0;
+  left: -20px;
   opacity: 1;
   font-size: 30px !important;
   z-index: 1;

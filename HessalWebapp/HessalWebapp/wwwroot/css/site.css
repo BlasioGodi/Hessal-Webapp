@@ -2851,3 +2851,28 @@ footer .no-icon-list:last-child a {
         width: 50%;
     }
 }
+
+
+/* Media query for screens narrower than 769 pixels */
+@media only screen and (max-width: 768px) {
+    .owl-nav .owl-prev {
+        position: absolute;
+        top:90%;
+        width: 25%; 
+    }
+
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 90%;
+        width: 25%; 
+    }
+
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel button.owl-dot {
+        background: rgb(248, 154, 75);
+        box-shadow: 0 20px 15px rgba(0,0,0, 0.3);
+        border-radius:10px;
+    }
+}
+
