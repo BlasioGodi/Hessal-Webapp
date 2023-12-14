@@ -4170,7 +4170,7 @@ textarea.form-control-lg {
   align-items: center;
 }
 
-.navbar-toggler {
+.navbar-toggler, .navbar-toggler:focus {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
@@ -4181,7 +4181,7 @@ textarea.form-control-lg {
   transition: var(--bs-navbar-toggler-transition);
 }
 @media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
+  .navbar-toggler, .navbar-toggler:focus {
     transition: none;
   }
 }
@@ -13114,6 +13114,7 @@ textarea.form-control-lg {
   --bs-body-font-family: "Rethink Sans", sans-serif;
   --bs-border-primary: 248, 154, 75;
   --bs-border-black: 0,0,0;
+  --bs-border-white: 248,249,250;
 }
 
 .navbar-container {
@@ -13162,8 +13163,8 @@ textarea.form-control-lg {
 }
 
 .nav-link-mobile:hover, .nav-link-mobile:focus, .nav-link-mobile:active {
-  background-color: #335d82;
-  border-color: #335d82;
+  background-color: rgb(33, 37, 41);
+  border-color: rgb(33, 37, 41);
   color: #ffffff;
 }
 
@@ -13172,6 +13173,10 @@ textarea.form-control-lg {
   font-family: var(--bs-title-font-family);
   font-weight: 800;
   color: white;
+}
+
+.card-width {
+  min-width: 18rem;
 }
 
 .card-bg {
@@ -13333,6 +13338,11 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-border-black), var(--bs-border-opacity)) !important;
 }
 
+.border-custom-white {
+  --bs-border-opacity: 0.2;
+  border-color: rgba(var(---bs-border-white), var(--bs-border-opacity)) !important;
+}
+
 .btn-primary-nav {
   font-family: var(--bs-title-font-family) !important;
   background-color: rgb(248, 154, 75);
@@ -13362,10 +13372,26 @@ textarea.form-control-lg {
   color: #f89a4b;
 }
 
+.navbar-toggler, .navbar-toggler:focus {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  padding: 0;
+  box-shadow: none;
+}
+
 /* Media Queries */
 @media (min-width: 200px) and (max-width: 575px) {
   .card-bg {
     min-height: 25rem;
+  }
+}
+@media (max-width: 280px) {
+  .card-width {
+    min-width: 12rem;
   }
 }
 @media (min-width: 768px) {

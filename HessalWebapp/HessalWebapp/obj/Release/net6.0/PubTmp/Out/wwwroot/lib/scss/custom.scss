@@ -232,8 +232,8 @@ $card-primary-color: white;
 
 :root {
     --bs-title-font-family: 'Oswald', sans-serif;
-    --bs-header-font-family: 'Unna', serif;
-    --bs-body-font-family: 'Unna', serif;
+    --bs-header-font-family: 'Rethink Sans', sans-serif;
+    --bs-body-font-family: 'Rethink Sans', sans-serif;
     --bs-border-primary: 248, 154, 75;
     --bs-border-black: 0,0,0;
 }
@@ -294,8 +294,8 @@ $card-primary-color: white;
     &:hover,
     &:focus,
     &:active {
-        background-color: darken($btn-primary-bg, 15%);
-        border-color: darken($btn-primary-border, 15%);
+        background-color: rgb(33,37,41);
+        border-color: rgb(33,37,41);
         color: $btn-primary-color;
     }
 }
@@ -306,6 +306,10 @@ $card-primary-color: white;
     font-family: var(--bs-title-font-family);
     font-weight: 800;
     color: white;
+}
+
+.card-width {
+    min-width: 18rem;
 }
 
 .card-bg {
@@ -443,7 +447,7 @@ $card-primary-color: white;
 .owl-nav .owl-next {
     position: absolute;
     top: calc(50% - 25px);
-    right: 0;
+    right: -20px;
     opacity: 1;
     font-size: 30px !important;
     z-index: 1;
@@ -452,7 +456,7 @@ $card-primary-color: white;
 .owl-nav .owl-prev {
     position: absolute;
     top: calc(50% - 25px);
-    left: 0;
+    left: -20px;
     opacity: 1;
     font-size: 30px !important;
     z-index: 1;
@@ -517,6 +521,19 @@ $card-primary-color: white;
     color: $primary;
 }
 
+.navbar-toggler{
+    @extend .navbar-toggler;
+    padding: 0;
+    border:none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    @extend .navbar-toggler;
+    padding: 0;
+    box-shadow: none;
+}
+
 /* Media Queries */
 @media (min-width: 200px) and (max-width: 575px) {
    .card-bg{
@@ -525,7 +542,9 @@ $card-primary-color: white;
 }
 
 @media (max-width: 280px) {
-    
+    .card-width {
+        min-width: 12rem;
+    }
 }
 
 @media (max-width: 375px) {

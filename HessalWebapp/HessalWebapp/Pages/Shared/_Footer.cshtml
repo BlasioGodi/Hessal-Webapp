@@ -1,10 +1,10 @@
 ﻿<!--Footer Section-->
 
-<footer class="footer text-muted bg-light" id="footer">
+<footer class="footer text-muted @ViewData["Footer-bg"]" id="footer">
     <div class="gutter"></div>
-    <div class="container overflow-hidden text-black">
+    <div class="container overflow-hidden  @ViewData["Footer-text"]">
         <div class="row align-items-center">
-            <div class="border-bottom border-custom-black">
+            <div class="border-bottom @ViewData["Border"]">
             </div>
             <div id="Follow" class="col-md-6 col-lg-6 col-sm-6 col-xs-12 text-lg-start text-sm-start text-s-center">
                 <p class="mb-0 social-title">
@@ -39,7 +39,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="mb-4 border-bottom border-custom-black">
+            <div class="mb-4 border-bottom @ViewData["Border"]">
             </div>
         </div>
         <div class="row gy-3">
@@ -59,7 +59,7 @@
 
                 </div>
                 <div class="collapse d-md-block" id="footer-menu">
-                    <ul class="no-icon-list text-black">
+                    <ul class="no-icon-list">
                         <li>
                             <a asp-area="" asp-page="/Index">Home</a>
                         </li>
@@ -130,7 +130,7 @@
         <div class="gutter">
         </div>
     </div>
-    <div class="container-fluid bg-light text-black">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 mb-2 col-lg-6 col-sm-12 text-center">
                 &copy
@@ -143,4 +143,10 @@
             </div>
         </div>
     </div>
+
+    <!-- Apply the style from ViewData -->
+    <style>
+        @Html.Raw(ViewData["Footer-Icon-List"])
+        @Html.Raw(ViewData["Social-List-Light"])
+    </style>
 </footer>

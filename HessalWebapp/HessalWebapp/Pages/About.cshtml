@@ -1,6 +1,12 @@
 ﻿@page
 @model HessalWebapp.Pages.AboutModel
 @{ViewData["Title"] = "About Us";
+    //Footer Theme Definitions
+    ViewData["Footer-bg"] = "bg-light";
+    ViewData["Footer-text"] = "text-black";
+    ViewData["Footer-Icon-List"] = "footer .no-icon-list:last-child a{ color: black;}";
+    ViewData["Social-List-Light"] = ".social-list .bi , .social-list .fa{color: #606060;}";
+    ViewData["Border"] = "border-custom-black";
 }
 
 <section id="about_one">

@@ -2,12 +2,6 @@
 
 <div class="container-fluid navbar-container">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-sticky br-10 " id="nav-bg">
-        <a class="navbar-brand" asp-area="" asp-page="/Index">
-            <!--Smaller Screens-->
-            <img src="~/lib/src/logos/Hessal-76.png" class="d-inline-block align-text-center mx-2 navbar-img d-sm-none" alt="Hessal Logo" />
-            <!--Larger Screens-->
-            <img src="~/lib/src/logos/Hessal-76-Branded.png" class="d-inline-block align-text-center mx-2 navbar-img d-none d-sm-block" alt="Hessal Logo" />
-        </a>
         <button class="navbar-toggler button-menu-wrap" id="offcanvasButton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHessal"
                 aria-controls="offcanvasHessal" aria-label="Toggle navigation">
             <div class="button-menu" id="menu">
@@ -18,6 +12,12 @@
                 </div>
             </div>
         </button>
+        <a class="navbar-brand text-end" asp-area="" asp-page="/Index">
+            <!--Smaller Screens-->
+            <img src="~/lib/src/logos/Hessal-76.png" class="d-inline-block align-text-center mx-2 navbar-img d-sm-none" alt="Hessal Logo" />
+            <!--Larger Screens-->
+            <img src="~/lib/src/logos/Hessal-76-Branded.png" class="d-inline-block align-text-center mx-2 navbar-img d-none d-sm-block" alt="Hessal Logo" />
+        </a>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarText">
             <ul class="navbar-nav mb-2 mb-lg-0 mx-3">
@@ -105,7 +105,7 @@
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
                                        aria-current="page" asp-area="" asp-page="/Service">Solution-3</a>
                                 </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
+                                <li class="border-secondary mx-3 my-2">
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
                                        aria-current="page" asp-area="" asp-page="/Service">Solution-4</a>
                                 </li>
@@ -122,25 +122,56 @@
                             <ul class="text-center">
                                 <li class="border-bottom border-secondary mx-3 my-2">
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects">Projects-1</a>
+                                       aria-current="page" asp-area="" asp-page="/Projects">Residentials</a>
                                 </li>
                                 <li class="border-bottom border-secondary mx-3 my-2">
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects">Projects-2</a>
+                                       aria-current="page" asp-area="" asp-page="/Projects">Commercials</a>
                                 </li>
                                 <li class="border-bottom border-secondary mx-3 my-2">
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects">Projects-3</a>
+                                       aria-current="page" asp-area="" asp-page="/Projects">Industrial</a>
                                 </li>
                                 <li class="border-bottom border-secondary mx-3 my-2">
                                     <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects">Projects-4</a>
+                                       aria-current="page" asp-area="" asp-page="/Projects">Hospitals</a>
+                                </li>
+                                <li class="border-secondary mx-3 my-2">
+                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                       aria-current="page" asp-area="" asp-page="/Projects">Hotels</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item w-100">
-                        <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Contact">Knowledge</a>
+                        <a class="nav-link-mobile text-center" data-bs-toggle="collapse"
+                           data-bs-target="#collapseKnowledge" aria-expanded="false" aria-controls="collapseKnowledge" href="#">
+                            Knowledge
+                        </a>
+                    <div class="collapse" id="collapseKnowledge">
+                        <ul class="text-center">
+                            <li class="border-bottom border-secondary mx-3 my-2">
+                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                   aria-current="page" asp-area="" asp-page="/Projects">LPG Production</a>
+                            </li>
+                            <li class="border-bottom border-secondary mx-3 my-2">
+                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                   aria-current="page" asp-area="" asp-page="/Projects">Leak Detection</a>
+                            </li>
+                            <li class="border-bottom border-secondary mx-3 my-2">
+                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                   aria-current="page" asp-area="" asp-page="/Projects">Fire Safety</a>
+                            </li>
+                            <li class="border-bottom border-secondary mx-3 my-2">
+                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                   aria-current="page" asp-area="" asp-page="/Projects">Gas Pipes</a>
+                            </li>
+                            <li class="border-secondary mx-3 my-2">
+                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                   aria-current="page" asp-area="" asp-page="/Projects">Non-Destructive Testing</a>
+                            </li>
+                        </ul>
+                    </div>
                     </li>
                 </ul>
             </nav>
