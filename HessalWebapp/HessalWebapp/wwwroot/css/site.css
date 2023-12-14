@@ -122,7 +122,6 @@ body {
     --text-color-red: red;
     --text-color-blue: #1da1f2;
     --theme-color: rgb(248, 154, 75);
-    --theme-color-dark:rgb()
 }
 
 ul {
@@ -1200,7 +1199,7 @@ body.offcanvas-open {
 }
 
 .paragraph-title {
-    font-family: var(--bs-header-font-family);
+    font-family: var(--bs-title-font-family);
     font-size: 1.5rem;
 }
 
