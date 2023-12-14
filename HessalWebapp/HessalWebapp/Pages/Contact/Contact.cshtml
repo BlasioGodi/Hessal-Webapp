@@ -1,0 +1,24 @@
+﻿@page
+@model HessalWebapp.Pages.ContactModel
+@{ViewData["Title"] = "Contact Us";
+    //Footer Theme Definitions
+    ViewData["Footer-bg"] = "bg-dark-custom";
+    ViewData["Footer-text"] = "text-white";
+    ViewData["Footer-Icon-List"] = "footer .no-icon-list:last-child a{ color: white;}";
+    ViewData["Social-List-Light"] = ".social-list .bi , .social-list .fa{color: #f8f9fa;}";
+    ViewData["Border"] = "border-custom-white";
+    ViewData["CloseButton"] = "btn-close-white";
+}
+
+@section MetaTags {
+    <!-- Add meta tags specific to this page -->
+}
+
+<section id="contacts_one">
+    <div class="container-fluid background-bg bg-opacity-50 section-landing position-relative">
+        <div class="bg-greyed-out bg-grey-pos bg-fixed">
+            <div class="w-100 h-100 bg-dark bg-opacity-50"></div>
+        </div>
+        <div class="container"><h1 class="main-header">@ViewData["Title"]</h1></div>
+    </div>
+</section>

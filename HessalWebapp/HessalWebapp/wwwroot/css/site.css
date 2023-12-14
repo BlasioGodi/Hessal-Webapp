@@ -1198,6 +1198,11 @@ body.offcanvas-open {
     min-height: 80vh;
 }
 
+.section-header-about {
+    font-family: var(--bs-header-font-family);
+    font-size: 1.5rem;
+}
+
 .paragraph-title {
     font-family: var(--bs-title-font-family);
     font-size: 1.5rem;

@@ -155,6 +155,10 @@ label {
     color: white;
 }
 
+.bg-dark-custom {
+    background-color: #212529;
+}
+
 /* 1.4 Buttons */
 
 .button-menu-wrap {
@@ -1195,7 +1199,7 @@ body.offcanvas-open {
 }
 
 .paragraph-title {
-    font-family: var(--bs-header-font-family);
+    font-family: var(--bs-title-font-family);
     font-size: 1.5rem;
 }
 
@@ -1729,6 +1733,9 @@ body.offcanvas-open {
     font-weight: 300 !important;
 }
 
+.bg-primary-grad {
+    background-image: linear-gradient(#f89a4b, #ea3e3a);
+}
 
 /*-------------------------------------------------------------------------------
   6. Projects
@@ -2453,7 +2460,6 @@ footer .btn-close-dark:hover {
 }
 
 footer .no-icon-list:last-child a {
-    color: black;
     border-bottom: none;
     text-decoration: none;
 }
@@ -2854,8 +2860,7 @@ footer .no-icon-list:last-child a {
     }
 }
 
-
-/* Media query for screens narrower than 769 pixels */
+/* Owl Carousel Media Query */
 @media only screen and (max-width: 768px) {
     .owl-nav .owl-prev {
         position: absolute;

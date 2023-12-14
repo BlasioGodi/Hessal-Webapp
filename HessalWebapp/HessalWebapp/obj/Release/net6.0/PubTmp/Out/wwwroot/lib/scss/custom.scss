@@ -236,6 +236,7 @@ $card-primary-color: white;
     --bs-body-font-family: 'Rethink Sans', sans-serif;
     --bs-border-primary: 248, 154, 75;
     --bs-border-black: 0,0,0;
+    --bs-border-white: 248,249,250;
 }
 
 .navbar-container {
@@ -486,6 +487,11 @@ $card-primary-color: white;
 .border-custom-black {
     --bs-border-opacity: 0.2;
     border-color: rgba(var(--bs-border-black), var(--bs-border-opacity)) !important;
+}
+
+.border-custom-white {
+    --bs-border-opacity: 0.2;
+    border-color: rgba(var(---bs-border-white), var(--bs-border-opacity)) !important;
 }
 
 .btn-primary-nav {

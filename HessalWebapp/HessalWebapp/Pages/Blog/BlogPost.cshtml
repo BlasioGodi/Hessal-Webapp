@@ -1,0 +1,22 @@
+﻿@page
+@model HessalWebapp.Pages.Blog.BlogPostModel
+@{
+}
+
+<section id="Knowledgeone" class="section-knowledge">
+    <div class="container bg-primary">
+        <div class="row d-flex flex-wrap text-center">
+            <h1 class="display-1 section-header">BlogPost1</h1>
+        </div>
+    </div>
+</section>
+
+<section id="Knowledgetwo" class="section-knowledge">
+    <div class="container bg-light">
+        <div class="row d-flex flex-wrap text-center">
+            <h1 class="display-2 section-header">@Model.Title</h1>
+            <p class="paragraph-text">@Model.Content</p>
+        </div>
+    </div>
+
+</section>
