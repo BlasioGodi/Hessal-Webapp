@@ -29,7 +29,6 @@ namespace HessalWebapp.Services
                 // Add more blog posts as needed
             };
         }
-
         public List<BlogPost> GetBlogPosts()
         {
             // Logic to retrieve blog posts from a data source
@@ -38,6 +37,10 @@ namespace HessalWebapp.Services
         public BlogPost GetBlogPostById(int id)
         {
             return _blogPosts.FirstOrDefault(post => post.Id == id);
+        }
+        public BlogPost GetBlogPostByTitle(string postTitle)
+        {
+            return _blogPosts.FirstOrDefault(post => post.Title == postTitle);
         }
     }
 }

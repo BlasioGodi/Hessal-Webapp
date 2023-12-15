@@ -21,7 +21,7 @@ D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\stati
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\staticwebassets.pack.json
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\staticwebassets.build.json
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\staticwebassets.development.json
-D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\scopedcss\bundle\HessalWebapp.styles.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\scopedcss\projectbundle\HessalWebapp.bundle.scp.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Release\net6.0\HessalWebapp.dll

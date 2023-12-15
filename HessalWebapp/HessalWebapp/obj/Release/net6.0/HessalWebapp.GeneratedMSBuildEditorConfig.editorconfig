@@ -16,66 +16,70 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Blog/BlogList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nTGlzdC5jc2h0bWw=
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Blog/BlogList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Blog/BlogPost.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xCbG9nUG9zdC5jc2h0bWw=
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Blog/BlogPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Contact/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Projects/Projects.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcUHJvamVjdHMuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Projects/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcUHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Shared/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Shared/_Header.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Shared/_SharedHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaGFyZWRIZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Solutions/Services.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29sdXRpb25zXFNlcnZpY2VzLmNzaHRtbA==
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Terms.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybXMuY3NodG1s
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Solutions/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25zXFNlcnZpY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Terms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-e2uocrdw14
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Websites/Hessal-Webapp/HessalWebapp/HessalWebapp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gtmmkhzgr6

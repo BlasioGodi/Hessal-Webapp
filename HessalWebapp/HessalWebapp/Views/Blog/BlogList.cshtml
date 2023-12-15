@@ -1,0 +1,30 @@
+﻿@page
+
+@model HessalWebapp.Controllers.BlogListModel
+@{
+    Layout = "_Layout";
+}
+
+@Html.Partial("_SharedHeader")
+
+<section id="Knowledge" class="section-knowledge">
+    <div class="container bg-primary">
+        <div class="row d-flex flex-wrap text-center">
+            <h1 class="display-1 section-header">Our Knowledge Center</h1>
+            <div>
+                @foreach (var post in Model.BlogPosts)
+                {
+                    <div>
+                        <h2><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h2>
+                        <p>@post.Content</p>
+                        <p>Date: @post.Date</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

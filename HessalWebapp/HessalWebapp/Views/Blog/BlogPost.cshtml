@@ -1,0 +1,15 @@
+﻿@page "{id:int}"
+@model HessalWebapp.Controllers.BlogPostModel
+@{
+}
+
+@Html.Partial("_SharedHeader")
+
+<section id="Knowledgetwo" class="section-knowledge">
+    <div class="container bg-light">
+        <h1>@Model.BlogPost.Title</h1>
+        <p>@Model.BlogPost.Content</p>
+        <p>Date: @Model.BlogPost.Date</p>
+    </div>
+</section>
+<!-- Pages/Blog/BlogPost.cshtml -->
