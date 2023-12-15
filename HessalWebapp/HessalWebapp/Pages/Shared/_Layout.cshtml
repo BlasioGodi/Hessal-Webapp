@@ -90,7 +90,7 @@
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-    @await Html.PartialAsync("_Header")
+    @await Html.PartialAsync("_Header", new HessalWebapp.Pages.Shared.HeaderModel()) 
     <div class="layout">
         <div class="loader navbar-brand">
             <img src="~/lib/src/logos/Hessal-120.png" alt="" />

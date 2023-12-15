@@ -1,4 +1,13 @@
 ﻿<!--Header Section-->
+@model HessalWebapp.Pages.Shared.HeaderModel
+@{
+    Model.ServiceName = new List<string> { "LPG System Design", "Bulk Tank LPG Installations", "Fire-place Installations", "Gas Leak Detection", "Inspection and Maintenance" };
+    Model.ProjectTitle = new List<string> { "Residentials", "Commercials", "Industrial", "Hospitals", "Hotels" };
+    Model.BlogTitles = new List<string> { "LPG Production ", "Gas Detection", "Fire Safety", "Gas Pipes", "Non-Destructive Testing" };
+
+    //Social Icons
+    Model.SocialIcons = new List<string> { "fa fa-facebook", "fa fa-twitter", "fa fa-instagram", "fa fa-telegram"};
+}
 
 <div class="container-fluid navbar-container">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-sticky br-10 " id="nav-bg">
@@ -30,31 +39,28 @@
                 <li class="nav-item mx-2 navbar-solutions-menu">
                     <a class="nav-link nav-link-active">Our Solutions</a>
                     <ul>
-                        <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services">LPG System Design</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services">Bulk Tank LPG Installations</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services">Fire-place Installations</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services">Emergency Gas Leak Detection</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services">LPG Inspection and Maintenance</a></li>
+                        @foreach (var serviceName in Model.ServiceName)
+                        {
+                            <li><a aria-current="page" asp-area="" asp-page="/Solutions/Services" asp-route-title="@serviceName">@serviceName</a></li>
+                        }
                     </ul>
                 </li>
                 <li class="nav-item mx-2 navbar-projects-menu">
                     <a class="nav-link nav-link-active ">Projects</a>
                     <ul>
-                        <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects">Residentials</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects">Commercials</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects">Industrial</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects">Hospitals</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects">Hotels</a></li>
+                        @foreach (var projectTitle in Model.ProjectTitle)
+                        {
+                            <li><a aria-current="page" asp-area="" asp-page="/Projects/Projects" asp-route-title="@projectTitle">@projectTitle</a></li>
+                        }
                     </ul>
                 </li>
                 <li class="nav-item mx-2 navbar-knowledge-menu">
                     <a class="nav-link nav-link-active" asp-area="" asp-page="/Blog/BlogList">Knowledge</a>
                     <ul>
-                        <li><a aria-current="page" asp-area="" asp-page="/Blog/BlogPost">LPG Production</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Blog/Leakage">Leak Detection</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Blog/FireSafety">Fire Safety</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Blog/Plastics">Gas Pipes</a></li>
-                        <li><a aria-current="page" asp-area="" asp-page="/Blog/NonDestructive">Non-Destructive Testing</a></li>
+                        @foreach (var blogTitles in Model.BlogTitles)
+                        {
+                            <li><a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-title="@blogTitles">@blogTitles</a></li>
+                        }
                     </ul>
                 </li>
             </ul>
@@ -93,26 +99,15 @@
                            data-bs-target="#collapseSolutions" aria-expanded="false" aria-controls="collapseSolutions" href="#">Our Solutions</a>
                         <div class="collapse" id="collapseSolutions">
                             <ul class="text-center">
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Solutions/Services">LPG System Design</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Solutions/Services">Bulk Tank LPG Installations</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Solutions/Services">Fire-place Installations</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Solutions/Services">Emergency Gas Leak Detection</a>
-                                </li>
-                                <li class="border-bottom mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Solutions/Services">LPG Inspection and Maintenance</a>
-                                </li>
+                                @for (var i = 0; i < Model.ServiceName.Count; i++)
+                                {
+                                    var serviceNameCanvas = Model.ServiceName[i];
+
+                                    <li class="@(i == Model.ServiceName.Count - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
+                                        <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                           aria-current="page" asp-area="" asp-page="/Solutions/Services">@serviceNameCanvas</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                     </li>
@@ -123,26 +118,15 @@
                         </a>
                         <div class="collapse" id="collapseProjects">
                             <ul class="text-center">
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects/Projects">Residentials</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects/Projects">Commercials</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects/Projects">Industrial</a>
-                                </li>
-                                <li class="border-bottom border-secondary mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects/Projects">Hospitals</a>
-                                </li>
-                                <li class="border-bottom mx-3 my-2">
-                                    <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                       aria-current="page" asp-area="" asp-page="/Projects/Projects">Hotels</a>
-                                </li>
+                                @for (var i = 0; i < Model.ProjectTitle.Count; i++)
+                                {
+                                    var projectTitleCanvas = Model.ProjectTitle[i];
+
+                                    <li class="@(i == Model.ProjectTitle.Count - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
+                                        <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                           aria-current="page" asp-area="" asp-page="/Projects/Projects">@projectTitleCanvas</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                     </li>
@@ -151,30 +135,19 @@
                            data-bs-target="#collapseKnowledge" aria-expanded="false" aria-controls="collapseKnowledge">
                             Knowledge
                         </a>
-                    <div class="collapse" id="collapseKnowledge">
-                        <ul class="text-center">
-                            <li class="border-bottom border-secondary mx-3 my-2">
-                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                   aria-current="page" asp-area="" asp-page="/Blog/Production">LPG Production</a>
-                            </li>
-                            <li class="border-bottom border-secondary mx-3 my-2">
-                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                   aria-current="page" asp-area="" asp-page="/Blog/Leakage">Leak Detection</a>
-                            </li>
-                            <li class="border-bottom border-secondary mx-3 my-2">
-                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                   aria-current="page" asp-area="" asp-page="/Blog/FireSafety">Fire Safety</a>
-                            </li>
-                            <li class="border-bottom border-secondary mx-3 my-2">
-                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                   aria-current="page" asp-area="" asp-page="/Blog/Plastics">Gas Pipes</a>
-                            </li>
-                            <li class="border-bottom mx-3 my-2">
-                                <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                   aria-current="page" asp-area="" asp-page="/Blog/NonDestructive">Non-Destructive Testing</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="collapse" id="collapseKnowledge">
+                            <ul class="text-center">
+                                @for (var i = 0; i < Model.BlogTitles.Count; i++)
+                                {
+                                    var blogTitlesCanvas = Model.BlogTitles[i];
+
+                                    <li class="@(i == Model.BlogTitles.Count - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
+                                        <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                                           aria-current="page" asp-area="" asp-page="/Projects/Projects">@blogTitlesCanvas</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -186,26 +159,20 @@
                 <nav class="sideMenu-nav">
                     <ul class="navbar-nav justify-content-center align-items-center">
                         <li class="nav-item w-100">
-                            <a class="nav-link-mobile text-center" aria-current="page" asp-area="" asp-page="/Index">Our Expertise</a>
+                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Projects/Project">Our Profession</a>
                         </li>
                         <li class="nav-item w-100">
-                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/About">Our Profession</a>
+                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/About">Who we are</a>
                         </li>
                         <li class="nav-item w-100">
-                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Solutions/s">Candidates</a>
-                        </li>
-                        <li class="nav-item w-100">
-                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Solutions/s">Who we are</a>
-                        </li>
-                        <li class="nav-item w-100">
-                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Solutions/s">Partner with Us</a>
+                            <a class="nav-link-mobile text-center " aria-current="page" asp-area="" asp-page="/Contact/Contact">Partner with Us</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="border-bottom border-custom-black">
                 </div>
             </div>
-            
+
             <div class="col-contact">
                 <p class="s-title3">Let's get in touch</p>
                 <p class="text">
@@ -223,30 +190,17 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 text-lg-end text-sm-end text-center mb-2">
                 <ul class="social-list">
-                    <li>
-                        <a target="_blank" rel="noopener noreferrer" class="social-list-facebook"
-                           href="#" aria-label="facebook follow button">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" rel="noopener noreferrer" class="social-list-twitter"
-                           href="#" aria-label="twitter follow button">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" rel="noopener noreferrer" class="social-list-instagram"
-                           href="#" aria-label="instagram follow button">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" rel="noopener noreferrer" class="social-list-telegram"
-                           href="#" aria-label="telegram follow button">
-                            <i class="fa fa-telegram"></i>
-                        </a>
-                    </li>
+                    @for (var i = 0; i < Model.SocialIcons.Count; i++)
+                    {
+                        var socialIconsCanvas = Model.SocialIcons[i];
+
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" class="social-list-facebook"
+                               href="#" aria-label="facebook follow button">
+                                <i class="@socialIconsCanvas"></i>
+                            </a>
+                        </li>
+                    }                 
                 </ul>
             </div>
         </div>

@@ -856,7 +856,6 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Services\" />
     <Folder Include="wwwroot\lib\src\gallery\" />
     <Folder Include="wwwroot\lib\src\project\" />
   </ItemGroup>
