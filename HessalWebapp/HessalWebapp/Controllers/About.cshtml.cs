@@ -8,7 +8,7 @@ namespace HessalWebapp.Controllers
     {
         public void OnGet()
         {
-            Theme = "light"; // Set the theme to light for this about page
+            Theme = "dark"; // Set the theme to light for this about page
             base.GetTheme(Theme);
         }
     }

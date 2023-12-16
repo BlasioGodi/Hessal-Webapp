@@ -1,3 +1,4 @@
+using HessalWebapp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
@@ -6,7 +7,7 @@ namespace HessalWebapp.Controllers
 {
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     [IgnoreAntiforgeryToken]
-    public class ErrorModel : PageModel
+    public class ErrorModel : BasePageModel
     {
         public string? RequestId { get; set; }
 
@@ -18,7 +19,6 @@ namespace HessalWebapp.Controllers
         {
             _logger = logger;
         }
-
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;

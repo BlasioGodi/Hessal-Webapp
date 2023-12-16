@@ -3,6 +3,7 @@
 @model HessalWebapp.Controllers.BlogListModel
 @{
     Layout = "_Layout";
+    ViewData["Title"] = "Knowledge Center";
 }
 
 @Html.Partial("_SharedHeader")
@@ -16,8 +17,9 @@
                 {
                     <div>
                         <h2><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h2>
+                        <p>@post.Author</p>
                         <p>@post.Content</p>
-                        <p>Date: @post.Date</p>
+                        <p>Date: @post.PublishedDate</p>
                     </div>
                 }
             </div>

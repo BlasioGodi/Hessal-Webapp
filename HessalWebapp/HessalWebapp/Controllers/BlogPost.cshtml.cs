@@ -16,7 +16,7 @@ namespace HessalWebapp.Controllers
 
         public IActionResult OnGet(int id) // Assuming the ID is used to identify the blog post
         {
-            Theme = "dark"; // Set the theme to light for this blog post page
+            Theme = "light"; // Set the theme to light for this blog post page
             base.GetTheme(Theme);
 
             BlogPost = _blogPostService.GetBlogPostById(id);

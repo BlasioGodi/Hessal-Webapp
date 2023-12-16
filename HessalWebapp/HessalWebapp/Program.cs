@@ -9,7 +9,7 @@ builder.Services.AddRazorPages(options =>
     options.RootDirectory = "/Views";
 });
 builder.Services.AddScoped<BlogPostService>();
-
+builder.Services.AddLogging();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

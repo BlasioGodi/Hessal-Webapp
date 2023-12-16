@@ -1,12 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace HessalWebapp.Models
+﻿namespace HessalWebapp.Models
 {
-    public class BlogPost:PageModel
+    public class BlogPost
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public string Author { get; set; }
         public string Content { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime PublishedDate { get; set; } = DateTime.Now; // Default to current date
     }
 }

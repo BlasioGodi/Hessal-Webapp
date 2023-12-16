@@ -13,9 +13,6 @@ namespace HessalWebapp.Controllers {
         {
             _blogPostService = blogPostService;
         }
-        //Initialization of the BlogPost Model to retrieve data from the BlogPostService
-        public List<BlogPost> BlogPosts { get; set; }
-
         public void OnGet()
         {
             Theme = "dark"; // Set the theme to light for this blog list page

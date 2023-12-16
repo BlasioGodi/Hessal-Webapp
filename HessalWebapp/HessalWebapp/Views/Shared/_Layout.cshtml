@@ -90,7 +90,8 @@
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-    @await Html.PartialAsync("_Header", new HessalWebapp.Controllers.HeaderModel()) 
+    @await Html.PartialAsync("_Header", new HessalWebapp.Controllers.HeaderModel())
+
     <div class="layout">
         <div class="loader navbar-brand">
             <img src="~/lib/src/logos/Hessal-120.png" alt="" />
@@ -100,7 +101,7 @@
             <div class="vertical-line-4"></div>
         </div>
         <main role="main">
-            @RenderBody()
+            @RenderBody()         
         </main>
     </div>
     <!-- Overlay for faded background -->
@@ -109,7 +110,7 @@
     <div>
         @await Html.PartialAsync("_Footer")
     </div>
-    
+
     <!-- JS Library Files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script src="~/lib/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
