@@ -4,14 +4,19 @@
     ViewData["Title"] = Model.BlogPost.Title;
 }
 
-@Html.Partial("_SharedHeader")
-
-<section id="Knowledgetwo" class="section-knowledge">
-    <div class="container bg-light">
-        <h1>@Model.BlogPost.Title</h1>
-        <p>@Model.BlogPost.Author</p>
-        <p>@Model.BlogPost.Content</p>
-        <p>Date: @Model.BlogPost.PublishedDate</p>
+<section>
+    <div id="post-header" class="bg-primary">
+        <div class="post single"><div class="post-image"></div></div>
     </div>
 </section>
-<!-- Pages/Blog/BlogPost.cshtml -->
+
+<section id="post-content" class="section-knowledge">
+    <div class="container post single">
+        <div class="post-content">
+            <h1>@Model.BlogPost.Title</h1>
+            <p>@Model.BlogPost.Author</p>
+            <p>@Model.BlogPost.Content</p>
+            <p>Date: @Model.BlogPost.PublishedDate</p>
+        </div>
+    </div>
+</section>

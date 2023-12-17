@@ -196,6 +196,16 @@ $(document).ready(function () {
                 }
             }
         });
+
+        $(window).scroll(function () {
+                $(".social-icon").css("position", "relative");
+                $(".social-icon").css("top", 0);
+                if ($(window).scrollTop() > $(".social-icon").position().top) {
+                    $(".social-icon").css("position", "absolute");
+                    $(".social-icon").css("top", $(window).scrollTop());
+                }
+         });
+
     }
 
     /* Sticky Setting */

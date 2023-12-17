@@ -492,139 +492,31 @@
         </div>
     </div>
 </section>
-<section id="Knowledge" class="section-knowledge">
-    <div class="container article-container">
-        <h3 class="section-header section-header-knowledge text-center my-3">Knowledge Center</h3><!-- Post / Item -->
-        <article class="post item">
-            <div class="post-image">
-                <div class="image">
-                    <a href="blog/lpg_what_is_it.html" aria-label="What is LPG Gas">
-                        <img src="~/lib/src/bg/LPG_1.webp" width="640" height="360" loading="lazy" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="post-content">
-                <ul class="post-meta">
-                    <li>25 January, 2023</li>
-                    <li>by Samuel Karanja</li>
-                </ul>
-                <h4><a href="blog/lpg_what_is_it.html" class="text-highlight body-title body-title">What is Liquefied Petroleum Gas?</a></h4>
-                <p>Get to know what Liquefied Petroleum Gas is, its uses, and why its a preferred energy source.</p>
-            </div>
-        </article><!-- Post / Item -->
-        <article class="post item">
-            <div class="post-image">
-                <div class="image">
-                    <a href="blog/lpg_production.html" aria-label="LPG Production">
-                        <img src="~/lib/src/bg/LPG_PROD_1.webp" width="640" height="360" loading="lazy" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="post-content">
-                <div>
-                    <ul class="post-meta">
-                        <li>25 January, 2023</li>
-                        <li>by Samuel Karanja</li>
-                    </ul>
-                    <h4>
-                        <a href="blog/lpg_production.html" class="text-highlight body-title ">
-                            LPG Production - Fractional distillation
-                            Process
-                        </a>
-                    </h4>
-                    <p>What is Fractional Distillation? Find out more here.</p>
-                </div>
-            </div>
-        </article><!-- Post / Item -->
-        <article class="post item">
-            <div class="post-image">
-                <div class="image">
-                    <a href="blog/lpg_safety.html" aria-label="LPG Safety">
-                        <img src="~/lib/src/bg/LPG-SAFE_1.webp"
-                             width="640" height="360" loading="lazy" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="post-content">
-                <ul class="post-meta">
-                    <li>25 January, 2023</li>
-                    <li>by Samuel Karanja</li>
-                </ul>
-                <h4><a href="blog/lpg_safety.html" class="text-highlight body-title ">Safety Precautions when using LPG</a></h4>
-                <p>
-                    Liquefied Petroleum Gas is a useful energy source, and also dangerous when mishandled. Find out the
-                    safety measures that you can use when working with LPG.
-                </p>
-            </div>
-        </article>
-        <div class="text-center my-5">
-            <a href="blog/blog_list.html" class="btn btn-primary btn-text-link">
-                More Knowledge on LPG
-                here
-            </a>
-        </div>
-    </div>
-</section>
 
-<section>
+<section id="Knowledge">
     <div class="container">
-        <div class="owl-carousel">
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
+        <div class="row d-flex flex-wrap justify-content-center">
+            <h1 class="section-header text-center my-3">Knowledge Center</h1>
+            <h2 class="section-title text-center my-2">
+                Our Recent Posts on LPG
+            </h2>
+            <div class="owl-carousel">
+                @foreach (var post in Model.BlogPosts)
+                {
+                    <div class="card br-10 mx-2 my-2 card-width" style="min-height:38rem;">
+                        <a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">
+                            <img src="@post.ImageUrl" class="card-img-top br-10" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h5>
+                            <p class="card-text">@post.Content</p>
+                            <p class="card-text">By @post.Author</p>
+                            <p class="card-text">Published: @post.PublishedDate</p>
+                        </div>
+                    </div>
+                }
             </div>
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
-            </div>
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
-            </div>
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
-            </div>
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
-            </div>
-            <div class="card br-10 mx-2 my-2 card-width" >
-                <img src="~/lib/src/project/Image-6.jpg" class="card-img-top br-10" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-text-title text-center">Design and Installation of LP Gas Systems</h5>
-                    <p class="card-text">We design, install, test and commission LPG systems for both small and large scale reticulation.</p>
-                </div>
-            </div>
-
         </div>
-    </div>
-
-    <div>
-        @foreach (var post in Model.BlogPosts)
-        {
-            <div>
-                <h2><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h2>
-                <p>@post.Author</p>
-                <p>@post.Content</p>
-                <p>Date: @post.PublishedDate</p>
-            </div>
-        }
     </div>
 </section>
 

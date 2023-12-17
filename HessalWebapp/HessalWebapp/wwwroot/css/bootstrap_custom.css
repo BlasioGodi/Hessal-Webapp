@@ -13179,6 +13179,10 @@ textarea.form-control-lg {
   min-width: 18rem;
 }
 
+.card-height {
+  min-height: 38rem;
+}
+
 .card-bg {
   background-color: transparent;
   border-radius: 0;
