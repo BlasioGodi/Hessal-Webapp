@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 namespace HessalWebapp.Controllers {
     public class BlogListModel : BasePageModel
     {
-        private readonly BlogPostService _blogPostService;
+        public BlogPostService _blogPostService;
 
         //Constructor to Initialize the BlogPostService
         public BlogListModel(BlogPostService blogPostService)

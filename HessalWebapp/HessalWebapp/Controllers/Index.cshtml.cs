@@ -8,10 +8,11 @@ namespace HessalWebapp.Controllers
     public class IndexModel : BasePageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        private readonly BlogPostService _blogPostService;
-
-        //IndexModel Constructor
-        public IndexModel(ILogger<IndexModel> logger, BlogPostService blogPostService)
+        public BlogPostService _blogPostService;
+        public IEnumerable<BlogPost> BlogPosts { get; private set; }
+        public IndexModel(
+            ILogger<IndexModel> logger,
+            BlogPostService blogPostService)
         {
             _logger = logger;
             _blogPostService = blogPostService;

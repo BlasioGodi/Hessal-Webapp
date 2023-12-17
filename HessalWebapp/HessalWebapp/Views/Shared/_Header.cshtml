@@ -1,9 +1,12 @@
 ﻿<!--Header Section-->
+<!--Utilized dependency injection to instantiate data into my partial header section.-->
 @using HessalWebapp.Services
+@inject BlogPostService BlogPostService
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment WebHostEnvironment
 @model HessalWebapp.Controllers.HeaderModel
 @{
-    var blogPostService = new BlogPostService(); //Needs to be reviewed as this is not best practice
-    Model.BlogPosts = blogPostService.GetBlogPosts();
+    Model.BlogPosts = BlogPostService.GetBlogPosts();
+
     Model.ServiceName = new List<string> { "LPG System Design", "Bulk Tank LPG Installations", "Fire-place Installations", "Gas Leak Detection", "Inspection and Maintenance" };
     Model.ProjectTitle = new List<string> { "Residentials", "Commercials", "Industrial", "Hospitals", "Hotels" };
     Model.SocialIcons = new List<string> { "fa fa-facebook", "fa fa-twitter", "fa fa-instagram", "fa fa-telegram" };
@@ -67,7 +70,7 @@
                         {
                             @for (var i = 0; i < 5; i++)
                             {
-                                var blogPostsCanvas = Model.BlogPosts[i];
+                                var blogPostsCanvas = Model.BlogPosts.ElementAt(i);
                                 <li><a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-id="@blogPostsCanvas.Id">@blogPostsCanvas.Title</a></li>
                             }
                         }
@@ -155,11 +158,11 @@
                             <ul class="text-center">
                                 @if (Model.BlogPosts != null)
                                 {
-                                    @for (var i = 0; i < Model.BlogPosts.Count; i++)
+                                    @for (var i = 0; i < Model.BlogPosts.Count(); i++)
                                     {
-                                        var blogTitlesCanvas = Model.BlogPosts[i];
+                                        var blogTitlesCanvas = Model.BlogPosts.ElementAt(i);
 
-                                        <li class="@(i == Model.BlogPosts.Count - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
+                                        <li class="@(i == Model.BlogPosts.Count() - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
                                             <a target="_blank" rel="noopener noreferrer" class="nav-link"
                                                aria-current="page" asp-area="" asp-page="/Projects/Projects">@blogTitlesCanvas</a>
                                         </li>

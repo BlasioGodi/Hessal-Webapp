@@ -1,4 +1,5 @@
-﻿@{
+﻿@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment WebHostEnvironment
+@{
     ViewData["Context"] = "@context";
     ViewData["Type"] = "@type";
 }
@@ -90,7 +91,7 @@
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-    @await Html.PartialAsync("_Header", new HessalWebapp.Controllers.HeaderModel())
+    @await Html.PartialAsync("_Header", new HessalWebapp.Controllers.HeaderModel(new Services.BlogPostService(WebHostEnvironment)))
 
     <div class="layout">
         <div class="loader navbar-brand">
@@ -101,7 +102,7 @@
             <div class="vertical-line-4"></div>
         </div>
         <main role="main">
-            @RenderBody()         
+            @RenderBody()
         </main>
     </div>
     <!-- Overlay for faded background -->

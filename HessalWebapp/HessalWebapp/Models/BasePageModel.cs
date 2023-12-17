@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Collections;
 
 namespace HessalWebapp.Models
 {
     public class BasePageModel:PageModel
     {
-        public List<BlogPost> BlogPosts { get; set; }
+        public IEnumerable<BlogPost> BlogPosts { get; set; }
         public List<string> ServiceName { get; set; }
         public List<string> ProjectTitle { get; set; }
         public List<string> SocialIcons { get; set; }

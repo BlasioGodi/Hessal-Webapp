@@ -10,19 +10,15 @@
     <Compile Remove="NewFolder\**" />
     <Compile Remove="wwwroot\lib\node_modules\desandro-matches-selector\**" />
     <Compile Remove="wwwroot\lib\node_modules\isotope\**" />
-    <Compile Remove="wwwroot\NewFolder\**" />
     <Content Remove="NewFolder\**" />
     <Content Remove="wwwroot\lib\node_modules\desandro-matches-selector\**" />
     <Content Remove="wwwroot\lib\node_modules\isotope\**" />
-    <Content Remove="wwwroot\NewFolder\**" />
     <EmbeddedResource Remove="NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\lib\node_modules\desandro-matches-selector\**" />
     <EmbeddedResource Remove="wwwroot\lib\node_modules\isotope\**" />
-    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
     <Content Remove="wwwroot\lib\node_modules\desandro-matches-selector\**" />
     <Content Remove="wwwroot\lib\node_modules\isotope\**" />
     <None Remove="NewFolder\**" />
-    <None Remove="wwwroot\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
