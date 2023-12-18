@@ -1,0 +1,83 @@
+[
+  {
+    "Id": 1,
+    "Title": "LPG",
+    "Highlight": "What is Liquefied Petroleum Gas?",
+    "Author": "Samuel Karanja",
+    "Content": "Get to know what Liquefied Petroleum Gas is, its uses and why its a preferred energy source.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/LPG_1.webp"
+  },
+  {
+    "Id": 2,
+    "Title": "LPG Production",
+    "Highlight": "LPG Production - Fractional Distillation Process",
+    "Author": "Samuel Karanja",
+    "Content": "What is Fractional Distillation? Find out more here.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/LPG_PROD_1.webp"
+  },
+  {
+    "Id": 3,
+    "Title": "LPG Safety",
+    "Highlight": "Safety Precautions when using LPG",
+    "Author": "Samuel Karanja",
+    "Content": "Liquefied Petroleum Gas is a useful energy source, and also dangerous when mishandled. Find out the safety measures that you can use when working with LPG.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/LPG-SAFE_1.webp"
+  },
+  {
+    "Id": 4,
+    "Title": "Leak Detection",
+    "Highlight": "LPG Leakages, What causes this?",
+    "Author": "Godfrey Muhinda",
+    "Content": "What exactly causes LPG leakages? And how exactly do you deal with them? This article covers this area and more. Read on to find out!",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/Leak-01.webp"
+  },
+  {
+    "Id": 5,
+    "Title": "Fire Safety",
+    "Highlight": "Fire Safety and Prevention",
+    "Author": "Godfrey Muhinda",
+    "Content": "LPG Related fires - What causes them and how to prevent them from happening.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/fire-safety.webp"
+  },
+  {
+    "Id": 6,
+    "Title": "Gas Pipes",
+    "Highlight": "Plastic Pipes for LPG reticulation",
+    "Author": "Timothy Vera",
+    "Content": "What are the types of plastic pipes used for LPG reticulation.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/plastic-pipes.webp"
+  },
+  {
+    "Id": 7,
+    "Title": "Gas Accessories",
+    "Highlight": "Gas Accessories for LPG",
+    "Author": "Timothy Vera",
+    "Content": "What are Smart Gas meters, Gas Vaporizers...Find out more.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/lpg-accessories.webp"
+  },
+  {
+    "Id": 8,
+    "Title": "Non-destructive Testing",
+    "Highlight": "Non-destructive Testing",
+    "Author": "Samuel Karanja",
+    "Content": "Non-destructive testing, what is it and how is it carried out? Find out more.",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/ndt.webp"
+  },
+  {
+    "Id": 9,
+    "Title": "Earthing",
+    "Highlight": "Earthing of LPG Tanks",
+    "Author": "Samuel Karanja",
+    "Content": "How is earthing done on LPG Tanks. Find out more",
+    "PublishedDate": "2023-01-01T12:00:00",
+    "img": "/lib/src/bg/earthing-tanks.webp"
+  }
+]

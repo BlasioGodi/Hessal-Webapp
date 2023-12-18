@@ -313,6 +313,10 @@ $card-primary-color: white;
     min-width: 18rem;
 }
 
+.card-height {
+    min-height: 38rem;
+}
+
 .card-bg {
     @extend .card;
     background-color: transparent;

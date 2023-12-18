@@ -328,6 +328,19 @@ $card-primary-color: white;
     min-height: 30rem;
 }
 
+.card-date {
+    background-color: $primary;
+    color: white;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
 .card-img-no-rad,
 .card-img-top-no-rad {
     @extend .card-img-top, .card-img;

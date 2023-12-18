@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Od2H05KuwmECVRCbndFceQDcV9MlZD+eBca1VZWR2Tw=",
+  "Hash": "jm2ysKs9qhWyY25L4OJgVPEU2FUAlz9CXU2B4ukiRz0=",
   "Source": "HessalWebapp",
   "BasePath": "_content/HessalWebapp",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\data\\BlogList.json",
+      "SourceId": "HessalWebapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\",
+      "BasePath": "_content/HessalWebapp",
+      "RelativePath": "data/BlogList.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\BlogList.json"
     },
     {
       "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\favicon.ico",

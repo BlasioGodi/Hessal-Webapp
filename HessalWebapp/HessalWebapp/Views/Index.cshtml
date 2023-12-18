@@ -503,15 +503,15 @@
             <div class="owl-carousel">
                 @foreach (var post in Model.BlogPosts)
                 {
-                    <div class="card br-10 mx-2 my-2 card-width" style="min-height:38rem;">
+                    <div class="card br-10 mx-2 my-2 card-width">
                         <a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">
                             <img src="@post.ImageUrl" class="card-img-top br-10" alt="..." />
                         </a>
+                        <div class="card-date"><p class="card-text">Published: @post.PublishedDate</p></div> <!--Control Card Heights with Media Query-->
                         <div class="card-body">
                             <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h5>
                             <p class="card-text">@post.Content</p>
                             <p class="card-text">By @post.Author</p>
-                            <p class="card-text">Published: @post.PublishedDate</p>
                         </div>
                     </div>
                 }

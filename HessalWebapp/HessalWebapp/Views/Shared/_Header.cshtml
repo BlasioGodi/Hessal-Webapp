@@ -158,13 +158,13 @@
                             <ul class="text-center">
                                 @if (Model.BlogPosts != null)
                                 {
-                                    @for (var i = 0; i < Model.BlogPosts.Count(); i++)
+                                    @for (var i = 0; i < 5; i++)
                                     {
                                         var blogTitlesCanvas = Model.BlogPosts.ElementAt(i);
 
                                         <li class="@(i == Model.BlogPosts.Count() - 1 ? "border-bottom" : "border-bottom border-secondary") mx-3 my-2">
                                             <a target="_blank" rel="noopener noreferrer" class="nav-link"
-                                               aria-current="page" asp-area="" asp-page="/Projects/Projects">@blogTitlesCanvas</a>
+                                               aria-current="page" asp-area="" asp-page="/Projects/Projects" asp-route-id="@blogTitlesCanvas.Id">@blogTitlesCanvas.Title</a>
                                         </li>
                                     }
                                 }
