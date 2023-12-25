@@ -376,16 +376,44 @@ label {
 }
 
 /* 1.7 Social Media */
-.vertical-panel,
 .vertical-panel-content {
-    position: absolute;
-    width: 19.735vmin;
-    left: 0;
-    bottom: 0;
     text-align: center;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    z-index: 10;
+    background-color:var(--theme-color);
+}
+
+.vertical-panel-title {
+    font-family: var(--bs-header-font-family);
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 auto;
+}
+
+.vertical-panel-content .social-list li {
+    margin-top: 0.5vmin;
+    display: inline-block;
+    text-align: center;
+}
+
+.vertical-panel-content .social-list .bi,
+.vertical-panel-content .social-list .fa {
+    color: #606060;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.2em;
+    line-height: 1.2em;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .social-title {
@@ -529,7 +557,19 @@ label {
    min-height: 50vh;
 }
 
+.project .body-title {
+    font-size: 1.6rem;
+}
 
+.project .paragraph-text {
+    font-size: 1.2rem;
+}
+
+#load-more {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
 
 /* 1.10 Color Setting */
 
@@ -616,22 +656,19 @@ label {
 
 /* 1.11 Article Post */
 
+
 .post.single {
     position: relative;
     padding-bottom: 40px;
 }
 
     .post.single .post-image {
-        height: 40vh;
-        min-height: 300px;
+        min-height: 50vh;
         margin-bottom: -100px;
         background-attachment: fixed;
     }
 
     .post.single .post-content {
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
         background-color: #fff;
         padding: 45px 50px;
     }
@@ -642,17 +679,166 @@ label {
     background-size: cover;
 }
 
-.post.single .post-nav + .post-image {
-  position: relative;
+.post ul.post-meta {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+    display: block;
 }
-    .post.single .post-nav + .post-image:after {
+
+.lead-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+    .post ul.post-meta > li {
+        display: inline-block;
+        font-family: var(--bs-body-font-family);
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 500;
+    }
+
+        .post ul.post-meta > li:not(:last-child) {
+            margin-right: 8px;
+        }
+
+            .post ul.post-meta > li:first-child:after {
+                content: "/";
+                margin-left: 8px;
+            }
+
+.post-content ul.list-lpg {
+    padding-left: 1.6rem;
+}
+
+.list-lpg {
+    list-style-type: disc;
+}
+
+    .list-lpg li {
+        padding-top: 12px;
+    }
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+    .embed-responsive .embed-responsive-item,
+    .embed-responsive embed,
+    .embed-responsive iframe,
+    .embed-responsive object,
+    .embed-responsive video {
         position: absolute;
         top: 0;
+        bottom: 0;
         left: 0;
         width: 100%;
-        height: 50%;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-        content: " ";
+        height: 100%;
+        border: 0;
+    }
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+    padding-bottom: 75%;
+}
+
+
+/* 8.2 Widgets */
+
+.widget {
+    margin-bottom: 3.65em;
+    margin-top: 5em;
+}
+
+.widget-title {
+    font-family: var(--bs-title-font-family);
+    font-weight: normal;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 2.25em 0;
+}
+
+/* 8.3 Widget Recent Post */
+
+.recent-post {
+    margin-bottom: 1.7em;
+    overflow: hidden;
+}
+
+    .recent-post:last-child {
+        margin-bottom: 0;
+    }
+
+.recent-post-thumbnail {
+    width: 9.32em;
+    float: left;
+}
+
+    .recent-post-thumbnail img {
+        border-radius: 0.25em;
+        max-width: 100%;
+    }
+
+.recent-post-body {
+    padding-left: 11.2em;
+}
+
+.recent-post-title {
+    font-family:var(--bs-title-font-family);
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.45;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0;
+    position: relative;
+}
+
+.recent-post-time {
+    font-size: 0.88em;
+    color: dimgrey;
+    margin-top: 0.9em;
+}
+
+.image-description {
+    font-family: var(--bs-body-font-family);
+    font-size: 0.88em;
+    color: #ff904c;
+    margin-top: 0.9em;
+}
+
+.blog-tags a {
+    display: inline-block;
+    font-family:var(--bs-body-font-family);
+    font-size: 0.75em;
+    line-height: 1;
+    padding: 0.77em 1.1em 0.77em;
+    border-radius: 2em;
+    background-color: #333333;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0.8em;
+    margin: 0.8em 0.7em 0 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+    .blog-tags a:hover {
+        background-color: #ff904c;
+        text-decoration: none;
+        color: #fff;
     }
 
 /*-------------------------------------------------------------------------------
@@ -2179,9 +2365,34 @@ footer .no-icon-list:last-child a {
   12. Responsive Styles
 -------------------------------------------------------------------------------*/
 @media (min-width: 200px) and (max-width: 575px) {
+    .section-about {
+        padding: 30px 10px 0;
+        min-height: 50vh;
+    }
+
+    .image-box .hover {
+        padding: 20px;
+    }
+
+    .paragraph-text{
+        font-size:1.1rem;
+    }
+
+    .body-text{
+        font-size: 1.1rem;
+    }
+
+    .section-header-about {
+        font-size: 1.2rem;
+    }
+
     footer .col-footer {
         line-height: 1.25rem;
         border-bottom: 1px solid rgba(146, 157, 170, 0.22);
+    }
+
+    .lead-text {
+        font-size: 21px;
     }
 
     .container-contacts {
@@ -2200,10 +2411,21 @@ footer .no-icon-list:last-child a {
     .vertical-line-3 {
         display: none;
     }
-
-    .article-container {
-        width: fit-content;
+    .widget{
+        margin-top:1em;
     }
+    .widget .blog-tags {
+display:none;
+    }
+
+.post ul.post-meta > li{
+    font-size: 1rem;
+}
+
+    .post ul.post-meta > li:last-child {
+        padding-top: 10px;
+    }
+
 }
 
 @media (max-width: 280px) {
@@ -2213,8 +2435,9 @@ footer .no-icon-list:last-child a {
     .vertical-line-4 {
         display: none;
     }
-
-
+    .vertical-panel-content {
+        left: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -2245,6 +2468,13 @@ footer .no-icon-list:last-child a {
     .vertical-line-3 {
         display: none;
     }
+    .vertical-panel-content {
+        left: 0;
+    }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 35px 35px;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 414px) {
@@ -2272,6 +2502,10 @@ footer .no-icon-list:last-child a {
     .vertical-line-3 {
         display: none;
     }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 35px 35px;
+    }
 }
 
 @media (min-width: 414px) and (max-width: 576px) {
@@ -2294,6 +2528,10 @@ footer .no-icon-list:last-child a {
     .vertical-line-2,
     .vertical-line-3 {
         display: none;
+    }
+
+    .widget {
+        margin-top: 1em;
     }
 }
 
@@ -2370,6 +2608,13 @@ footer .no-icon-list:last-child a {
     .vertical-line-3 {
         display: none;
     }
+    .vertical-panel-content {
+        left: 0;
+    }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 20px 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 680px) {
@@ -2389,6 +2634,13 @@ footer .no-icon-list:last-child a {
     .vertical-line-3 {
         display: none;
     }
+    .vertical-panel-content {
+        left: 1.5rem;
+    }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 40px 40px;
+    }
 }
 
 @media (min-width: 575px) and (max-width: 768px) {
@@ -2401,6 +2653,10 @@ footer .no-icon-list:last-child a {
     #btn-close-3,
     #btn-close-4 {
         display: block;
+    }
+
+    .post-content ul.list-lpg {
+        padding-left: 2rem;
     }
 }
 
@@ -2420,6 +2676,19 @@ footer .no-icon-list:last-child a {
     .vertical-line-2,
     .vertical-line-3 {
         display: none;
+    }
+    .vertical-panel-content {
+        left: 3rem;
+    }
+    .lead-text {
+        font-size: 19px;
+    }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 40px 45px;
+    }
+    .post-content ul.list-lpg {
+        padding-left: 2rem;
     }
 }
 
@@ -2470,6 +2739,20 @@ footer .no-icon-list:last-child a {
     .container-contacts {
         width: 50%;
     }
+
+    .vertical-panel-content {
+        left: 6rem;
+    }
+    .lead-text {
+        font-size: 21px;
+    }
+    .post.single .post-content {
+        background-color: #fff;
+        padding: 40px 50px;
+    }
+    .post-content ul.list-lpg {
+        padding-left: 2rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -2506,6 +2789,9 @@ footer .no-icon-list:last-child a {
     .container-contacts {
         width: 50%;
     }
+    .post-content ul.list-lpg {
+        padding-left: 2.5rem;
+    }
 }
 
 @media (min-width: 920px) and (max-width: 1180px) {
@@ -2519,6 +2805,15 @@ footer .no-icon-list:last-child a {
 
     .container-contacts {
         width: 50%;
+    }
+    .vertical-panel-content {
+        left: 3rem;
+    }
+    .lead-text {
+        font-size: 23px;
+    }
+    .post-content ul.list-lpg {
+        padding-left: 3rem;
     }
 }
 
@@ -2555,11 +2850,35 @@ footer .no-icon-list:last-child a {
     .container-contacts {
         width: 50%;
     }
+    .vertical-panel-content {
+        left: 6rem;
+    }
+    .post-content ul.list-lpg {
+        padding-left: 3.5rem;
+    }
+}
+
+@media (min-width: 1180px) and (max-width: 1800px) {
+    .lead-text {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 1800px) {
     .container-contacts {
         width: 50%;
+    }
+
+    .vertical-panel-content {
+        left: 18rem;
+    }
+
+    .lead-text {
+        font-size: 26px;
+    }
+
+    .post-content ul.list-lpg {
+        padding-left: 3.5rem;
     }
 }
 

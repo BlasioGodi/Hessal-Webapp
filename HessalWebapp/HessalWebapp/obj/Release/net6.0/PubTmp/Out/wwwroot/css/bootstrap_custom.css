@@ -13193,6 +13193,35 @@ textarea.form-control-lg {
   min-height: 30rem;
 }
 
+.card-date {
+  background-color: #f89a4b;
+  color: black;
+  font-family: var(--bs-title-font-family);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -5%;
+  right: 3%;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-date .day {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.card-date .month {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card-date .year {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 .card-img-no-rad,
 .card-img-top-no-rad {
   border-top-left-radius: 0;

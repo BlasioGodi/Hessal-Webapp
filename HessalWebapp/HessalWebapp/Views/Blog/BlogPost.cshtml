@@ -1,7 +1,7 @@
-﻿@page "{id:int}"
+﻿@page "{pageName}"
 @model HessalWebapp.Controllers.BlogPostModel
 @{
-    ViewData["Title"] = Model.BlogPost.Title;
+    ViewData["Title"] = Model.BlogPostPage.PageName;
 }
 
 <section>
@@ -11,12 +11,132 @@
 </section>
 
 <section id="post-content" class="section-knowledge">
-    <div class="container post single">
-        <div class="post-content">
-            <h1>@Model.BlogPost.Title</h1>
-            <p>@Model.BlogPost.Author</p>
-            <p>@Model.BlogPost.Content</p>
-            <p>Date: @Model.BlogPost.PublishedDate</p>
+    <div class="container">
+        <div class="row">
+            <!--Render Region-->
+            <div id="content" class="post single col-md-8 ">
+                <!-- Post / Item -->
+                <article class="post-content ">
+                    <ul class="post-meta d-flex flex-wrap align-items-center">
+                        <li>@Model.BlogPostPage.PublishedDate.ToLongDateString()</li>
+                        <li>by @Model.BlogPostPage.Author</li>
+                        <li>
+                            <div class="vertical-panel-content">
+                                <div class="vertical-panel-title">Share</div>
+                                <ul class="social-list">
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" class="social-list-facebook"
+                                           href="https://www.facebook.com/sharer/sharer.php?u=https://hessal-sol.com/blog/lpg_what_is_it.html">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" class="social-list-whatsapp"
+                                           href="whatsapp://send?text=Liquified Petroleum Gas, What is it? Where does it come from and why do we use it? Find out more. %20https://hessal-sol.com/blog/lpg_what_is_it.html">
+                                            <i class="fa fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" class="social-list-twitter"
+                                           href="https://twitter.com/intent/tweet?text=Liquified Petroleum Gas, What is it? Where does it come from and why do we use it? Find out more. https://hessal-sol.com/blog/lpg_what_is_it.html">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" class="social-list-linkedin"
+                                           href="https://www.linkedin.com/sharing/share-offsite/?url=https://hessal-sol.com/blog/lpg_what_is_it.html">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <h1 class="section-header my-4 border-bottom pb-2">
+                        <a href="https://en.wikipedia.org/wiki/Liquefied_petroleum_gas">@Model.BlogPostPage.Highlight</a>
+                    </h1>
+                    <p class="lead-text">
+                        @Model.BlogPostPage.Summary
+                    </p>
+                    <!--Post Content-->
+                    @{
+                        <!--Request page path-->
+                        var requestedLink = HttpContext.Request.Path;
+                        var pageName = requestedLink.Value.Trim('/');
+
+                        switch (pageName)
+                        {
+                            case "Blog/BlogPost/What is LPG?":
+                                @Html.Partial("_lpg")
+                                break;
+                            case "Blog/BlogPost/LPG Production":
+                                @Html.Partial("_production")
+                                break;
+                            case "Blog/BlogPost/LPG Safety":
+                                @Html.Partial("_safety")
+                                break;
+                            case "Blog/BlogPost/Leak Detection":
+                                @Html.Partial("_leakages")
+                                break;
+                            case "Blog/BlogPost/Fire Prevention":
+                                @Html.Partial("_fireprevention")
+                                break;
+                            case "Blog/BlogPost/Gas Pipes":
+                                @Html.Partial("_plastic")
+                                break;
+                            case "Blog/BlogPost/Gas Accessories":
+                                @Html.Partial("_accessories")
+                                break;
+                            case "Blog/BlogPost/Non-destructive Testing":
+                                @Html.Partial("_ndtesting")
+                                break;
+                            case "Blog/BlogPost/Tank Earthing":
+                                @Html.Partial("_earthing")
+                                break;
+                            default:
+                                <p>Error: Blog post not found</p>
+                                break;
+                        }
+                    }
+                </article>
+            </div>
+            <div class="col-md-4 bg-secondary">
+                <div class="widget widget_recent_post">
+                    <h3 class="widget-title">Recent Post</h3>
+                    @foreach (var recentPosts in Model.BlogPosts)
+                    {
+                        if (recentPosts.Id != Model.BlogPostPage.Id)
+                        {
+                            <article class="recent-post">
+                                <div class="recent-post-thumbnail">
+                                    <a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-pageName="@recentPosts.PageName">
+                                        <img alt="Artificial Intelligence" src="@recentPosts.ImageUrl"
+                                             class="wp-post-image">
+                                    </a>
+                                </div>
+                                <div class="recent-post-body">
+                                    <h4 class="recent-post-title">
+                                        <a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-pageName="@recentPosts.PageName">
+                                            @recentPosts.Content
+                                        </a>
+                                    </h4>
+                                    <div class="recent-post-time">@Model.BlogPostPage.PublishedDate.ToString("MMM d, yyyy")</div>
+                                </div>
+                            </article>
+                        }
+                    }
+                </div>
+                <div class="widget d-md-block d-sm-none">
+                    <div class="blog-tags">
+                        @foreach (var blogTags in Model.BlogPosts)
+                        {
+                            <a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-pageName="@blogTags.PageName">@blogTags.Title</a>
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+

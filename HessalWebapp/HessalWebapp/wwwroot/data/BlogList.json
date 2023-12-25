@@ -1,83 +1,101 @@
 [
   {
     "Id": 1,
-    "Title": "LPG",
+    "Title": "What is LPG?",
+    "PageName": "What is LPG?",
     "Highlight": "What is Liquefied Petroleum Gas?",
+    "Summary": "LPG stands for Liquefied Petroleum Gas. It is a mixture of hydrocarbons, primarily propane and butane, that are in the gaseous state at ambient temperatures and pressures, but can be converted to liquid form under moderate pressure for storage and transportation. It is a versatile fuel source with a wide range of applications. It’s clean-burning nature and portability make it a suitable choice for many different settings and industries.",
     "Author": "Samuel Karanja",
     "Content": "Get to know what Liquefied Petroleum Gas is, its uses and why its a preferred energy source.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/LPG_1.webp"
+    "img": "/lib/src/bg/LPG_1.jpg"
   },
   {
     "Id": 2,
     "Title": "LPG Production",
+    "PageName": "LPG Production",
     "Highlight": "LPG Production - Fractional Distillation Process",
+    "Summary": "LPG (Liquified Petroleum Gas) is produced through the refining of crude oil and natural gas. The process begins with the extraction of these resources from the earth. The crude oil and natural gas are then transported to a refinery where they are processed to separate the various hydrocarbons.",
     "Author": "Samuel Karanja",
     "Content": "What is Fractional Distillation? Find out more here.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/LPG_PROD_1.webp"
+    "img": "/lib/src/bg/LPG_PROD_1.jpg"
   },
   {
     "Id": 3,
     "Title": "LPG Safety",
+    "PageName": "LPG Safety",
     "Highlight": "Safety Precautions when using LPG",
+    "Summary": "If you choose to use LPG (Liquefied Petroleum Gas) as your fuel source, it is important to take the necessary safety precautions to minimize the risk of fire or explosion. Here are some safety precautions you should take if you use LPG:",
     "Author": "Samuel Karanja",
-    "Content": "Liquefied Petroleum Gas is a useful energy source, and also dangerous when mishandled. Find out the safety measures that you can use when working with LPG.",
+    "Content": "Liquefied Petroleum Gas is a useful energy source, and also dangerous when mishandled.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/LPG-SAFE_1.webp"
+    "img": "/lib/src/bg/LPG-SAFE_1.jpg"
   },
   {
     "Id": 4,
     "Title": "Leak Detection",
+    "PageName": "Leak Detection",
     "Highlight": "LPG Leakages, What causes this?",
+    "Summary": "An LPG leak detector is a device that is designed to detect the presence of LPG gas in the air. It works by sensing the presence of the hydrocarbon compounds found in LPG and triggering an alarm when the level of LPG in the air exceeds a certain threshold.",
     "Author": "Godfrey Muhinda",
     "Content": "What exactly causes LPG leakages? And how exactly do you deal with them? This article covers this area and more. Read on to find out!",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/Leak-01.webp"
+    "img": "/lib/src/bg/Leak-01.jpg"
   },
   {
     "Id": 5,
-    "Title": "Fire Safety",
+    "Title": "Fire Prevention",
+    "PageName": "Fire Prevention",
     "Highlight": "Fire Safety and Prevention",
+    "Summary": "Liquefied Petroleum Gas is a flammable and explosive fuel, and fires can occur as a result of several factors. Some of the most common causes of LPG-related fires include:",
     "Author": "Godfrey Muhinda",
     "Content": "LPG Related fires - What causes them and how to prevent them from happening.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/fire-safety.webp"
+    "img": "/lib/src/bg/fire-safety.jpg"
   },
   {
     "Id": 6,
     "Title": "Gas Pipes",
+    "PageName": "Gas Pipes",
     "Highlight": "Plastic Pipes for LPG reticulation",
+    "Summary": "Plastic pipes can be used for LPG (liquid petroleum gas) distribution, but they must meet certain requirements and standards. The most common types of plastic pipes used for LPG distribution are polyethylene (PE) and polyvinyl chloride (PVC) pipes.",
     "Author": "Timothy Vera",
     "Content": "What are the types of plastic pipes used for LPG reticulation.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/plastic-pipes.webp"
+    "img": "/lib/src/bg/plastic-pipes.jpg"
   },
   {
     "Id": 7,
     "Title": "Gas Accessories",
+    "PageName": "Gas Accessories",
     "Highlight": "Gas Accessories for LPG",
+    "Summary": "A smart LPG (Liquefied Petroleum Gas) meter is a type of gas meter that uses advanced technology to measure and monitor the consumption of LPG. It typically includes a digital display that shows the current consumption and a wireless communication module that allows the meter to connect to a remote monitoring system.",
     "Author": "Timothy Vera",
     "Content": "What are Smart Gas meters, Gas Vaporizers...Find out more.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/lpg-accessories.webp"
+    "img": "/lib/src/bg/lpg-accessories.jpg"
   },
   {
     "Id": 8,
     "Title": "Non-destructive Testing",
+    "PageName": "Non-destructive Testing",
     "Highlight": "Non-destructive Testing",
+    "Summary": "Non-destructive testing (NDT) is a method of evaluating the integrity of LPG tanks without causing damage to the tank. There are several different types of NDT methods that can be used to inspect LPG tanks, including:",
     "Author": "Samuel Karanja",
     "Content": "Non-destructive testing, what is it and how is it carried out? Find out more.",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/ndt.webp"
+    "img": "/lib/src/bg/ndt.jpg"
   },
   {
     "Id": 9,
     "Title": "Earthing",
+    "PageName": "Tank Earthing",
     "Highlight": "Earthing of LPG Tanks",
+    "Summary": "Installing earthing to a gas tank involves connecting a conductor, typically a copper wire, from the tank to a grounding rod buried in the ground. This creates an electrical connection between the tank and the earth, which helps to dissipate any static electricity that may build up on the surface of the tank. This is important because static electricity can potentially ignite the gas inside the tank, causing a fire or explosion.",
     "Author": "Samuel Karanja",
     "Content": "How is earthing done on LPG Tanks. Find out more",
     "PublishedDate": "2023-01-01T12:00:00",
-    "img": "/lib/src/bg/earthing-tanks.webp"
+    "img": "/lib/src/bg/earthing-tanks.jpg"
   }
 ]

@@ -12,6 +12,13 @@ window.addEventListener("load", () => {
     })
 });
 
+
+    function toggleContent() {
+        var content = document.getElementById("load-more");
+    // Toggle the display property
+    content.style.display = (content.style.display === "none") ? "block" : "none";
+    }
+
 /* OffCanvas Menu Button */
 var offCanvasButton = document.getElementById("offcanvasButton")
 var menu = document.getElementById("menu");

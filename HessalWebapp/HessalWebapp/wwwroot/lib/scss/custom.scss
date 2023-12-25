@@ -183,7 +183,7 @@ $cyans: ( "cyan-100": $cyan-100, "cyan-200": $cyan-200, "cyan-300": $cyan-300, "
 
 // scss-docs-start theme-color-variables
 $primary: $redorange !default;
-$secondary: $gray-600 !default;
+$secondary: $gray-200 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -330,15 +330,30 @@ $card-primary-color: white;
 
 .card-date {
     background-color: $primary;
-    color: white;
+    color: black;
+    font-family: var(--bs-title-font-family);
     width: 120px;
     height: 120px;
     position: absolute;
-    top: 0;
-    right: 1%;
+    top: -5%;
+    right: 3%;
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-date .day {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.card-date .month {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.card-date .year {
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .card-img-no-rad,

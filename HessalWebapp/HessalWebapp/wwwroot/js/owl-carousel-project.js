@@ -1,7 +1,7 @@
 ﻿
 //Owl Carousel
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.owl-one').owlCarousel({
         startPosition: 3,
         loop: false,
         rewind: true,
@@ -27,7 +27,7 @@ $(document).ready(function () {
             }
         }
     });
-    $('.owl-carousel-2').owlCarousel({
+    $('.owl-two').owlCarousel({
         startPosition: 3,
         loop: false,
         rewind: true,
@@ -37,6 +37,9 @@ $(document).ready(function () {
         nav: true,
         dots: true,
         dotsEach: true,
+        //autoplay: true,
+        //autoplayTimeout: 2500,
+        //autoplayHoverPause: true,
         navText: [
             "<i class='fa fa-angle-left'></i>",
             "<i class='fa fa-angle-right'></i>"
@@ -52,7 +55,7 @@ $(document).ready(function () {
                 items: 3,
             }
         }
-    })
+    });
 });
 
 

@@ -24,8 +24,20 @@ namespace HessalWebapp.Services
         }
         public BlogPost GetBlogPostById(int postId)
         {
-            var blogPosts = GetBlogPosts();
-            return blogPosts.FirstOrDefault(post => post.Id == postId);
+            var blogPostId = GetBlogPosts();
+            return blogPostId.FirstOrDefault(post => post.Id == postId);
+        }
+
+        public BlogPost GetBlogPostByTitle(string postTitle)
+        {
+            var blogPostTitle = GetBlogPosts();
+            return blogPostTitle.FirstOrDefault(post => post.Title == postTitle);
+        }
+
+        public BlogPost GetBlogPostByPage(string postName)
+        {
+            var blogPostTitle = GetBlogPosts();
+            return blogPostTitle.FirstOrDefault(post => post.PageName == postName);
         }
     }
 }

@@ -9,6 +9,7 @@ namespace HessalWebapp.Models
         public List<string> ServiceName { get; set; }
         public List<string> ProjectTitle { get; set; }
         public List<string> SocialIcons { get; set; }
+        public List<string> SocialList { get; set; }
         public string Theme { get; set; } = "light"; // Default to light
         public void GetTheme(string Theme)
         {
