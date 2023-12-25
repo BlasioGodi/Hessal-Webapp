@@ -28,7 +28,7 @@ namespace HessalWebapp.Models
             ViewData["Footer-bg"] = "bg-light";
             ViewData["Footer-text"] = "text-black";
             ViewData["Footer-Icon-List"] = "footer .no-icon-list:last-child a{ color: black;}";
-            ViewData["Social-List-Light"] = ".social-list .bi , .social-list .fa{color: #606060;}";
+            ViewData["Social-List-Light"] = ".social-list .bi , .social-list .fa, .social-list .fa-brands{color: #606060;}";
             ViewData["Border"] = "border-custom-black";
             ViewData["CloseButton"] = "btn-close-dark";
         }

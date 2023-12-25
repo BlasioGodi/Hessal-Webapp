@@ -2,8 +2,8 @@
 @model HessalWebapp.Controllers.IndexModel
 @{
     ViewData["Title"] = "Home";
-    ViewData["TwitterShare"] = "https://twitter.com/intent/tweet?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/";
-    ViewData["WhatsappShare"] = "whatsapp://send?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/ ";
+    Model.SocialIcons = new List<string> { "fa fa-facebook", "fa-brands fa-x-twitter", "fa fa-instagram", "fa fa-telegram" };
+    Model.SocialList = new List<string> { "social-list-facebook", "social-list-twitter", "social-list-instagram", "social-list-telegram" };
 }
 
 @section MetaTags {
@@ -16,7 +16,7 @@
             <!--SLIDE-1 LAYER NR. 1 -->
             <li data-index='rs-382' data-transition='cube' data-slotamount='default' data-easein='default' data-easeout='default' data-masterspeed='default'
                 data-thumb='~/lib/src/project/Image-6.jpg' data-rotate='0' data-saveperformance='off' data-title='Cube Vertical' data-description=''>
-                <img src="~/lib/src/project/Image-6.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                <img src="~/lib/src/project/Image-6.jpg" alt="Gas Vaporizer" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
                 <div class="tp-caption lyr3"
                      id="slide-1648-layer-1"
                      data-x="['left','left','left','left']" data-hoffset="20"
@@ -79,7 +79,7 @@
             <!--SLIDE 2 LAYER NR. 2 -->
             <li data-index='rs-384' data-transition='incube' data-slotamount='default' data-easein='default' data-easeout='default' data-masterspeed='default'
                 data-thumb='~/lib/src/project/LP-07.jpg' data-rotate='0' data-saveperformance='off' data-title='In Cube Vertical' data-description=''>
-                <img src="~/lib/src/project/LP-07.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                <img src="~/lib/src/project/LP-07.jpg" alt="LPG Bulk Tank" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" loading="lazy">
                 <div class="tp-caption lyr3"
                      id="slide-1648-layer-1"
                      data-x="['right','right','right','right']" data-hoffset="20"
@@ -143,8 +143,8 @@
             <li data-index='rs-371' data-transition='parallaxtoleft' data-slotamount='default' data-easein='default'
                 data-easeout='default' data-masterspeed='default' data-thumb='~/lib/src/project/FP-01.jpg'
                 data-rotate='0' data-saveperformance='off' data-title='Parallax to Bottom' data-description=''>
-                <img src="~/lib/src/project/FP-01.jpg" alt="" data-bgposition="center center"
-                     data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                <img src="~/lib/src/project/FP-01.jpg" alt="Fire Place" data-bgposition="center center"
+                     data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg"  loading="lazy">
                 <div class="tp-caption lyr3"
                      id="slide-1648-layer-1"
                      data-x="['left','left','left','left']" data-hoffset="20"
@@ -209,8 +209,8 @@
                 data-easein='default' data-easeout='default' data-masterspeed='default'
                 data-thumb='~/lib/src/project/Photo-13.jpg' data-rotate='0' data-saveperformance='off'
                 data-title='3D Curtain Vertical' data-description=''>
-                <img src="~/lib/src/project/Photo-13.jpg" alt="" data-bgposition="center center"
-                     data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                <img src="~/lib/src/project/Photo-13.jpg" alt="Solenoid Valve" data-bgposition="center center"
+                     data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg"  loading="lazy">
                 <div class="tp-caption lyr3 text-white"
                      id="slide-1648-layer-1"
                      data-x="['right','right','right','right']" data-hoffset="20"
@@ -564,30 +564,20 @@
                     </div>
                     <div class="col-sm-6 text-md-end">
                         <ul class="social-list">
-                            <li>
-                                <a target="_blank" rel="noopener noreferrer" class="social-list-facebook"
-                                   href="#" aria-label="facebook follow button">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" rel="noopener noreferrer" class="social-list-twitter"
-                                   href="#" aria-label="twitter follow button">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" rel="noopener noreferrer" class="social-list-instagram"
-                                   href="#" aria-label="instagram follow button">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" rel="noopener noreferrer" class="social-list-telegram"
-                                   href="#" aria-label="telegram follow button">
-                                    <i class="fa fa-telegram"></i>
-                                </a>
-                            </li>
+                            @if (Model.SocialIcons != null)
+                            {
+                                @for (var i = 0; i < Model.SocialIcons.Count; i++)
+                                {
+                                    var socialIconsCanvas = Model.SocialIcons[i];
+                                    var socialListCanvas = Model.SocialList[i];
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" class="@socialListCanvas"
+                                           href="#" aria-label="follow button">
+                                            <i class="@socialIconsCanvas"></i>
+                                        </a>
+                                    </li>
+                                }
+                            }
                         </ul>
                     </div>
                 </div>

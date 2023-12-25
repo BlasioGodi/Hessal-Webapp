@@ -2,6 +2,8 @@
 @model HessalWebapp.Controllers.BlogPostModel
 @{
     ViewData["Title"] = Model.BlogPostPage.PageName;
+    ViewData["TwitterShare"] = "https://twitter.com/intent/tweet?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/";
+    ViewData["WhatsappShare"] = "whatsapp://send?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/ ";
 }
 
 <section>
@@ -39,7 +41,7 @@
                                     <li>
                                         <a target="_blank" rel="noopener noreferrer" class="social-list-twitter"
                                            href="https://twitter.com/intent/tweet?text=Liquified Petroleum Gas, What is it? Where does it come from and why do we use it? Find out more. https://hessal-sol.com/blog/lpg_what_is_it.html">
-                                            <i class="fa fa-twitter"></i>
+                                            <i class="fa-brands fa-x-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
