@@ -795,8 +795,9 @@ label {
     padding-left: 11.2em;
 }
 
-.recent-post-title {
-    font-family:var(--bs-title-font-family);
+.recent-post-title,
+.recent-post-title a{
+    font-family: var(--bs-title-font-family);
     font-weight: 400;
     font-size: 1.1em;
     line-height: 1.45;
@@ -804,6 +805,13 @@ label {
     letter-spacing: 0;
     margin: 0;
     position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.recent-post-title a:hover{
+    color: var(--theme-color);
 }
 
 .recent-post-time {

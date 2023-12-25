@@ -9,21 +9,26 @@
 @Html.Partial("_SharedHeader")
 
 <section id="Knowledge" class="section-knowledge">
-    <div class="container bg-primary">
-        <div class="row d-flex flex-wrap text-center">
-            <h1 class="display-1 section-header">Our Knowledge Center</h1>
-            <div>
+    <div class="container">
+            <h1 class="section-header text-center my-3">Our Recent Posts</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
                 @foreach (var post in Model.BlogPosts)
                 {
-                    <div>
-                        <h2><a asp-page="/Blog/BlogPost" asp-route-id="@post.Id">@post.Title</a></h2>
-                        <p>@post.Author</p>
-                        <p>@post.Content</p>
-                        <p>Date: @post.PublishedDate</p>
+                    <div class="col">
+                        <div class="card br-10 mx-2 my-5 card-width">
+                            <a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">
+                                <img src="@post.ImageUrl" class="card-img-top br-10" alt="..." />
+                            </a>
+                            <div class="card-date text-center"><p class="mb-0 year">@post.PublishedDate.ToString("yyyy")</p><p class="mb-0 day">@post.PublishedDate.ToString("dd")</p><p class="month">@post.PublishedDate.ToString("MMMM")</p></div> <!--Control Card Heights with Media Query-->
+                            <div class="card-body">
+                                <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">@post.Title</a></h5>
+                                <p class="card-text">@post.Content</p>
+                                <p class="card-text">By @post.Author</p>
+                            </div>
+                        </div>
                     </div>
                 }
             </div>
-        </div>
     </div>
 </section>
 

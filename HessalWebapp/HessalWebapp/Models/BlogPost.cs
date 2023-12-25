@@ -13,6 +13,7 @@ namespace HessalWebapp.Models
         public string Author { get; set; }
         public string Content { get; set; }
         public DateTime PublishedDate { get; set; } = DateTime.Now; // Default to current date
+        public DateTime UpdatedDate { get; set; } = DateTime.Now; // Default to current date
 
         [JsonPropertyName("img")]
         public string ImageUrl { get; set; }
