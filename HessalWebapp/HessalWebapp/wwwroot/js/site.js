@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-console.log("Page init"); 
+console.log("Script Init"); 
 
 /* Page Loader */
 window.addEventListener("load", () => {
@@ -69,40 +69,43 @@ document.getElementById('offcanvasButton').addEventListener('click', toggleOffca
 document.getElementById('nav-button-close').addEventListener('click', toggleOffcanvas);
 
 /* Button Submit */
-const PIP_EL = {
+const HES_L = {
     submit: document.getElementById("sub_button"),
-    email: document.getElementById("email"),
-    loading: document.getElementById("btn-loading")
+    email: document.getElementById("emailForm"),
+    loading: document.getElementById("btn-loading"),
+    contactform: document.getElementById("contact-form")
 };
 
 let canSubmit = false;
 
-function PIP_can_submit() {
-    let email = PIP_EL.email.value.trim();
+function HES_can_submit() {
+    let email = HES_L.email.value.trim();
     if (email.length > 4) {
-        PIP_enable_submit()
+        HES_enable_submit()
     } else {
-        PIP_disable_submit()
+        HES_disable_submit()
     }
 }
 
-function PIP_enable_submit() {
-    PIP_EL.submit.classList.add("submit_enabled");
-    PIP_EL.submit.disabled = false;
+function HES_enable_submit() {
+    HES_L.submit.classList.add("submit_enabled");
+    HES_L.submit.disabled = false;
     canSubmit = true;
 }
 
-function PIP_disable_submit() {
-    PIP_EL.submit.classList.remove("submit_enabled");
-    PIP_EL.submit.disabled = true;
+function HES_disable_submit() {
+    HES_L.submit.classList.remove("submit_enabled");
+    HES_L.submit.disabled = true;
     canSubmit = false;
 }
 
-function PIP_set_event_listeners() {
-    PIP_EL.email.addEventListener("keyup", PIP_can_submit);
+function HES_set_event_listeners() {
+    HES_L.email.addEventListener("keyup", HES_can_submit);
 }
 
-var Pipebuild = {
+
+
+var Hessal = {
     init: function () {
         this.Component.init();
     },
@@ -115,68 +118,7 @@ var Pipebuild = {
             var $contactForm = $('#contact-form');
 
             if ($contactForm.length > 0) {
-                $contactForm.submit(function () {
-                    var $btn = $(this).find('.btn-loading');
-                    var $form = $(this);
-                    var response;
-                    const subButton = document.getElementById("sub_button");
-                    if ($form.valid()) {
-                        $('.btn-loading').show();
-                        $('.btn-submit').hide();
-                        //  XMLHttpRequest to get output from .php file and print on the console.
-                        //Start
-                        var xhttp = new XMLHttpRequest();
-                        var dateTiming;
-                        xhttp.onreadystatechange = function () {
-                            if (this.readyState == 4 && this.status == 200) {
-                                dateTiming = this.responseText;
-                            }
-                        };
-                        xhttp.open("GET", "mail.php", true);
-                        xhttp.send();
-                        //End
-                        $.ajax({
-                            type: 'POST',
-                            url: 'mail.php',
-                            data: $form.serialize(),
-                            error: function (err) {
-                                setTimeout(function () {
-                                    $('.col-message, .error-message').show();
-                                    $('.btn-loading').hide();
-                                    $('.btn-submit').show();
-                                    PIP_disable_submit();
-                                }, 2000);
-                            },
-                            success: function (responseText) {
-                                var funcResponse = responseText.trim();
-                                var match = funcResponse.match(/success/i);
-                                if (match !== null) {
-                                    response = 'success';
-                                } else {
-                                    response = 'error';
-                                }
-                                setTimeout(function () {
-                                    $btn.addClass(response);
-                                    $('.col-message, .success-message').show();
-                                    PIP_disable_submit();
-                                    $('.btn-loading').hide();
-                                    $('.btn-submit').show();
-
-                                }, 800);
-                                console.log("Response: ", response);
-                            },
-                            complete: function (data) {
-                                setTimeout(function () {
-                                    $('.btn-loading').hide();
-                                    $('.btn-submit').show();
-                                    PIP_disable_submit();
-                                }, 4000);
-                            }
-                        });
-                        return false;
-                    }
-                    return false;
-                });
+                HES_set_event_listeners();
             }
         }
     }
@@ -184,7 +126,7 @@ var Pipebuild = {
 
 $(document).ready(function () {
 
-    Pipebuild.init();
+    Hessal.init();
 
     /* Animation SlideIn */
     if ($(".contact-box").length > 0) {

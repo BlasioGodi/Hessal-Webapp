@@ -1,0 +1,22 @@
+﻿@model HessalWebapp.Models.EmailInputModel
+
+@{
+    ViewBag.Title = "Thank You";
+}
+
+@Html.Partial("_Sharedheader")
+
+<h1 class="section-header text-center pt-5 pb-2">Thank you for contacting us</h1>
+
+@if (ViewBag.Message != null)
+{
+    <p class="paragraph-text text-success text-center">@ViewBag.Message</p>
+}
+else if (ViewBag.Error != null)
+{
+    <p class="paragraph-text text-danger text-center">@ViewBag.Error</p>
+}
+
+<p class="text-center pb-5">
+    <a asp-area="" asp-page="/Contact/Contact" class="btn btn-primary paragraph-title">Back to Contact Page</a>
+</p>

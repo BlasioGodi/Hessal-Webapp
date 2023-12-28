@@ -17,7 +17,7 @@
                     <div class="col">
                         <div class="card br-10 mx-2 my-5 card-width">
                             <a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">
-                                <img src="@post.ImageUrl" class="card-img-top br-10" alt="..." />
+                                <img src="@post.ImageUrl" class="card-img-top br-10" alt="@post.ImageAlt" />
                             </a>
                             <div class="card-date text-center"><p class="mb-0 year">@post.PublishedDate.ToString("yyyy")</p><p class="mb-0 day">@post.PublishedDate.ToString("dd")</p><p class="month">@post.PublishedDate.ToString("MMMM")</p></div> <!--Control Card Heights with Media Query-->
                             <div class="card-body">

@@ -112,7 +112,7 @@
                             <article class="recent-post">
                                 <div class="recent-post-thumbnail">
                                     <a aria-current="page" asp-area="" asp-page="/Blog/BlogPost" asp-route-pageName="@recentPosts.PageName">
-                                        <img alt="" src="@recentPosts.ImageUrl"
+                                        <img alt="@recentPosts.ImageAlt" src="@recentPosts.ImageUrl"
                                              class="wp-post-image">
                                     </a>
                                 </div>
@@ -140,5 +140,16 @@
         </div>
     </div>
 </section>
+
+@section Scripts{
+    <!-- Owl Carousel Files -->
+    <script src="~/lib/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.magnific-popup.js"></script>
+    <script src="~/js/owl-carousel-project.js"></script>
+    <script src="~/js/interface.js"></script>
+}
+
 
 

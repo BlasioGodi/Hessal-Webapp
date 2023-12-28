@@ -30,6 +30,11 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
+        name: "Email", // Give it a unique name
+        pattern: "Email/{action?}/{id?}", // Define the pattern for the URL
+        defaults: new { controller = "EmailController" }); // Specify the controller name
+
+    endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
 

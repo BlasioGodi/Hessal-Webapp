@@ -9,7 +9,8 @@
     "Content": "Get to know what Liquefied Petroleum Gas is and its uses.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/LPG_1.jpg"
+    "img": "/lib/src/bg/LPG_1.webp",
+    "imgAlt": "LPG"
   },
   {
     "Id": 2,
@@ -21,7 +22,8 @@
     "Content": "What is Fractional Distillation? Find out more here.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/LPG_PROD_1.jpg"
+    "img": "/lib/src/bg/LPG_PROD_1.webp",
+    "imgAlt": "Fractional Distillation"
   },
   {
     "Id": 3,
@@ -33,7 +35,8 @@
     "Content": "LPG is a useful energy source, and also dangerous when mishandled.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/LPG-SAFE_1.jpg"
+    "img": "/lib/src/bg/LPG-SAFE_1.webp",
+    "imgAlt": "LPG Safety"
   },
   {
     "Id": 4,
@@ -45,7 +48,8 @@
     "Content": "What exactly causes LPG leakages? And how exactly do you deal with them?",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/Leak-01.jpg"
+    "img": "/lib/src/bg/Leak-01.webp",
+    "imgAlt": "Leak Detection"
   },
   {
     "Id": 5,
@@ -57,7 +61,8 @@
     "Content": "LPG Related fires - What causes them and how to prevent them from happening.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/fire-safety.jpg"
+    "img": "/lib/src/bg/fire-safety.webp",
+    "imgAlt": "Fire Prevention"
   },
   {
     "Id": 6,
@@ -69,7 +74,8 @@
     "Content": "What are the types of plastic pipes used for LPG reticulation.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/plastic-pipes.jpg"
+    "img": "/lib/src/bg/plastic-pipes.webp",
+    "imgAlt": "PexPipes"
   },
   {
     "Id": 7,
@@ -81,7 +87,8 @@
     "Content": "What are Smart Gas meters, Gas Vaporizers...Find out more.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/lpg-accessories.jpg"
+    "img": "/lib/src/bg/lpg-accessories.webp",
+    "imgAlt": "Gas Accessories"
   },
   {
     "Id": 8,
@@ -93,7 +100,8 @@
     "Content": "Non-destructive testing, what is it and how is it carried out? Find out more.",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/ndt.jpg"
+    "img": "/lib/src/bg/ndt.webp",
+    "imgAlt": "Non-destructive Testing"
   },
   {
     "Id": 9,
@@ -105,6 +113,7 @@
     "Content": "How is earthing done on LPG Tanks. Find out more",
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
-    "img": "/lib/src/bg/earthing-tanks.jpg"
+    "img": "/lib/src/bg/earthing-tanks.webp",
+    "imgAlt": "Tank Earthing"
   }
 ]
