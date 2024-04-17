@@ -5,7 +5,7 @@ namespace HessalWebapp.Controllers
 {
     public class ContactModel : BasePageModel
     {
-        public void OnGet()
+        public void OnGet(string Theme)
         {
             Theme = "light"; // Set the theme to light for this contact page
             base.GetTheme(Theme);

@@ -6,7 +6,6 @@ D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\bin\Debug\net6.0\HessalW
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\bin\Debug\net6.0\HessalWebapp.runtimeconfig.json
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\bin\Debug\net6.0\HessalWebapp.dll
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\bin\Debug\net6.0\HessalWebapp.pdb
-D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.csproj.AssemblyReference.cache
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.AssemblyInfoInputs.cache
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.AssemblyInfo.cs
@@ -21,7 +20,6 @@ D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\staticw
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\staticwebassets.pack.json
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\staticwebassets.build.json
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\staticwebassets.development.json
-D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\scopedcss\bundle\HessalWebapp.styles.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\scopedcss\projectbundle\HessalWebapp.bundle.scp.css
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.dll
@@ -29,3 +27,5 @@ D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\refint\
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.pdb
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.genruntimeconfig.cache
 D:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\ref\HessalWebapp.dll
+d:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+d:\Git\Websites\Hessal-Webapp\HessalWebapp\HessalWebapp\obj\Debug\net6.0\HessalWebapp.sourcelink.json

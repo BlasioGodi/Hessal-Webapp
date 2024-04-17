@@ -20,32 +20,32 @@ namespace HessalWebapp.Controllers
             if (ModelState.IsValid)
             {
                 // Set your email configuration
-                string smtpServer = "smtp.titan.email";
-                int smtpPort = 465;
+                string smtpServer = "mail5017.site4now.net";
+                int smtpPort = 25;
                 string smtpUsername = "info@hessal-sol.com";
-                string smtpPassword = "grcVmCpnPbN86Sj";
+                string smtpPassword = "243243Godi@";
 
                 // Create a MailMessage object
                 MailMessage mailMessage = new MailMessage();
                 mailMessage.From = new MailAddress("info@hessal-sol.com");
                 mailMessage.To.Add("info@hessal-sol.com");
-                mailMessage.Subject = "Someone new wants to connect";
-                mailMessage.Body = $"Name: {emailInput.FirstName} {emailInput.LastName}\nContact: {emailInput.Contact}\n\n{emailInput.Message}";
+                mailMessage.Subject = "New Website Message";
+                mailMessage.Body = $"First Name: {emailInput.FirstName} Last Name: {emailInput.LastName}\nContact: {emailInput.Contact} \nEmail: {emailInput.Email}\n\n{emailInput.Message}";
 
                 // Configure the SMTP client
                 SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort);
                 smtpClient.Credentials = new NetworkCredential(smtpUsername, smtpPassword);
-                smtpClient.EnableSsl = true;
+                smtpClient.EnableSsl = false;
 
                 // Send the email
                 try
                 {
                     smtpClient.Send(mailMessage);
-                    ViewBag.Message = "Email sent successfully.";
+                    ViewBag.Message = "Your email was sent successfully. We shall get back to you shortly!";
                 }
                 catch (Exception ex)
                 {
-                    ViewBag.Error = $"Error sending email: {ex.Message}";
+                    ViewBag.Error = $"Error sending email: \n {ex.Message}";
                 }
             }
             return View("~/Views/Shared/SendEmail.cshtml", emailInput);

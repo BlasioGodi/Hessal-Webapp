@@ -18,7 +18,7 @@ namespace HessalWebapp.Controllers {
             Theme = "dark"; // Set the theme to light for this blog list page
             base.GetTheme(Theme); 
 
-            BlogPosts = _blogPostService.GetBlogPosts();
+            BlogPosts = _blogPostService.GetBlogPosts().Take(6);
         }
     }
 }

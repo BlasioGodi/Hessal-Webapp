@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HessalWebapp.Controllers;
+using System.ComponentModel.DataAnnotations;
 
 namespace HessalWebapp.Models
 {

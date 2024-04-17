@@ -10,27 +10,119 @@
 
 <section id="Knowledge" class="section-knowledge">
     <div class="container">
-            <h1 class="section-header text-center my-3">Our Recent Posts</h1>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
-                @foreach (var post in Model.BlogPosts)
-                {
-                    <div class="col">
-                        <div class="card br-10 mx-2 my-5 card-width">
-                            <a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">
-                                <img src="@post.ImageUrl" class="card-img-top br-10" alt="@post.ImageAlt" />
-                            </a>
-                            <div class="card-date text-center"><p class="mb-0 year">@post.PublishedDate.ToString("yyyy")</p><p class="mb-0 day">@post.PublishedDate.ToString("dd")</p><p class="month">@post.PublishedDate.ToString("MMMM")</p></div> <!--Control Card Heights with Media Query-->
-                            <div class="card-body">
-                                <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">@post.Title</a></h5>
-                                <p class="card-text">@post.Content</p>
-                                <p class="card-text">By @post.Author</p>
-                            </div>
+        <h1 class="section-header text-center my-3">Our Recent Posts</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 load-widget" id="blog-list">
+            @foreach (var post in Model.BlogPosts)
+            {
+                <div class="col">
+                    <div class="card br-10 mx-2 my-5 card-width">
+                        <a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">
+                            <img src="@post.ImageUrl" class="card-img-top br-10" alt="@post.ImageAlt" />
+                        </a>
+                        <div class="card-date text-center"><p class="mb-0 year">@post.PublishedDate.ToString("yyyy")</p><p class="mb-0 day">@post.PublishedDate.ToString("dd")</p><p class="month">@post.PublishedDate.ToString("MMMM")</p></div> <!--Control Card Heights with Media Query-->
+                        <div class="card-body">
+                            <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-pageName="@post.PageName">@post.Title</a></h5>
+                            <p class="card-text">@post.Content</p>
+                            <p class="card-text">By @post.Author</p>
                         </div>
                     </div>
-                }
-            </div>
+                </div>
+            }
+        </div>
+        <div class="load-more-items">
+            <button class="btn btn-primary" id="load-more">Load more</button>
+            <button class="btn btn-primary btn-loading" type="button" disabled id="loading">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+            </button>
+        </div>
     </div>
 </section>
+
+@section Scripts{
+    <script>
+        var skip = 3;
+        var take = 3;
+        var loadedItems = 6;
+        var totalItems = 0;
+
+        $(document).ready(function () {
+            $.get("/LoadMore/GetCount", function (data) {
+                console.log(data);
+                totalItems = data;
+            });
+
+            $('#load-more').click(function () {
+                $.ajax({
+                    url: "/LoadMore/GetBlogs",
+                    method: "GET",
+                    data: { skip: skip, take: take },
+                    error: function (err) {
+                        console.log(err);
+                    },
+                    success: function (data) {
+                        console.log(data);
+
+                        setTimeout(function () {
+                            $.each(data, function (index, blog) {
+                                var publishedDate = new Date(blog.publishedDate);
+                                var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                                //Get Date, month and year
+                                var month = monthNames[publishedDate.getMonth()];
+                                var day = publishedDate.getDate();
+                                var year = publishedDate.getFullYear();
+
+                                var dateMonth = month + ' ' + day + ', ' + year;
+
+                                var loadItem = $(`<div class="col">
+                                    <div class="card br-10 mx-2 my-5 card-width">
+                                        <a asp-page="/Blog/BlogPost" asp-route-pageName="`+blog.pageName+`">
+                                            <img src="`+blog.img+`" class="card-img-top br-10" alt="`+blog.imgAlt+`" />
+                                        </a>
+                                        <div class="card-date text-center"><p class="mb-0 year">`+ year +`</p><p class="mb-0 day">`+day+`</p><p class="month">`+month+`</p></div>
+                                        <div class="card-body">
+                                            <h5 class="card-text-title text-center"><a asp-page="/Blog/BlogPost" asp-route-pageName="`+ blog.pageName +`">`+blog.title+`</a></h5>
+                                            <p class="card-text">`+blog.content+`</p>
+                                            <p class="card-text">By `+blog.author+`</p>
+                                        </div>
+                                    </div>
+                                </div>`);
+                                loadItem.hide();
+
+                                $('#blog-list').append(loadItem);
+
+                                loadItem.fadeIn(1000);
+                            });
+                        }, 3000)
+
+                        skip += take;
+
+                        // Update count of loaded items
+                        loadedItems += data.length;
+                        console.log(totalItems);
+                        console.log(loadedItems);
+                    }
+                })
+            })
+        })
+        const loadmore = document.getElementById('load-more');
+        const loading = document.getElementById('loading');
+
+        loadmore.addEventListener('click', (e) => {
+            e.target.classList.add('btn-loading');
+            loading.classList.remove('btn-loading');
+
+            setTimeout(function () {
+                // Hide the load more button if all items loaded
+                if (loadedItems == totalItems) {
+                    $("#load-more").hide();
+                }
+                e.target.classList.remove('btn-loading');
+                loading.classList.add('btn-loading');
+            }, 3000)
+        })
+    </script>
+}
 
 
 

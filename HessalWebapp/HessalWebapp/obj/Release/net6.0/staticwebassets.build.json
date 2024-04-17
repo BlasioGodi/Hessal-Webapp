@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pUfmmzU77p/Fv+xfu6yXBqkGN8iYuzHlzj+7gqbMGMY=",
+  "Hash": "6D3P84NqVRnwSx9SC2o1jjAXiXLdagBzCdpaTzEDGjY=",
   "Source": "HessalWebapp",
   "BasePath": "_content/HessalWebapp",
   "Mode": "Default",
@@ -25398,23 +25398,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\src\\project\\FP-01.webp"
     },
     {
-      "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-02.jpg",
-      "SourceId": "HessalWebapp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\",
-      "BasePath": "_content/HessalWebapp",
-      "RelativePath": "lib/src/project/FP-02.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\src\\project\\FP-02.jpg"
-    },
-    {
       "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-02.webp",
       "SourceId": "HessalWebapp",
       "SourceType": "Discovered",
@@ -25481,23 +25464,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\src\\project\\Leak-Detection.webp"
-    },
-    {
-      "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.jpg",
-      "SourceId": "HessalWebapp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\",
-      "BasePath": "_content/HessalWebapp",
-      "RelativePath": "lib/src/project/LP-04.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\src\\project\\LP-04.jpg"
     },
     {
       "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.webp",
@@ -71109,6 +71075,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\package-lock.json"
+    },
+    {
+      "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\robots.txt",
+      "SourceId": "HessalWebapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\",
+      "BasePath": "_content/HessalWebapp",
+      "RelativePath": "robots.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\robots.txt"
+    },
+    {
+      "Identity": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\sitemap.xml",
+      "SourceId": "HessalWebapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\",
+      "BasePath": "_content/HessalWebapp",
+      "RelativePath": "sitemap.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sitemap.xml"
     }
   ]
 }

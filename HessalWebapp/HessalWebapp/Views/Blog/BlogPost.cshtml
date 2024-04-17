@@ -1,9 +1,21 @@
 ﻿@page "{pageName}"
 @model HessalWebapp.Controllers.BlogPostModel
 @{
+    var requestedLink = HttpContext.Request.Path;
+    var pageName = requestedLink.Value.Trim('/');
     ViewData["Title"] = Model.BlogPostPage.PageName;
     ViewData["TwitterShare"] = "https://twitter.com/intent/tweet?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/";
     ViewData["WhatsappShare"] = "whatsapp://send?text=We%20are%20Hessal%20Solutions,%20LPG%20Specialists%20and%20Installers%20Get%20to%20know%20more%20about%20us.%20Visit%20our%20site%20@%20.%20https://hessal-sol.com/ ";
+}
+
+@section MetaTags {
+    <meta name="description" content="@Model.BlogPostPage.MetaDescription">
+    <meta property="og:title" content="@Model.BlogPostPage.MetaOgTitle">
+    <meta property="og:description" content="@Model.BlogPostPage.MetaOgDescription">
+    <meta name="keywords" content="@Model.BlogPostPage.MetaKeyWords">
+    <meta property="og:image" content="https://hessal-sol.com/lib/src/bg/Fire-03.webp">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
 }
 
 <section>
@@ -62,10 +74,6 @@
                     </p>
                     <!--Post Content-->
                     @{
-                        <!--Request page path-->
-                        var requestedLink = HttpContext.Request.Path;
-                        var pageName = requestedLink.Value.Trim('/');
-
                         switch (pageName)
                         {
                             case "Blog/BlogPost/What is LPG?":

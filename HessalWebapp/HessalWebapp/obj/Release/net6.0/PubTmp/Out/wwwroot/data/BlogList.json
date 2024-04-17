@@ -10,7 +10,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/LPG_1.webp",
-    "imgAlt": "LPG"
+    "imgAlt": "LPG",
+    "MetaDescription": "Liquified Petroleum Gas, What is it? Where does it come from and why do we use it? Find out more. ",
+    "MetaOgTitle": "What is LPG? ",
+    "MetaOgDescription": "Liquified Petroleum Gas, What is it? Where does it come from and why do we use it? Find out more. ",
+    "MetaKeyWords": "LPG Design, LPG Installation, LPG Maintenance, LPG Appliances, LPG Safety, LPG Leak Detection, LPG Benefits, LPG Uses, LPG Production, LPG Fires, LPG Tanks, LPG Earthing "
   },
   {
     "Id": 2,
@@ -23,7 +27,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/LPG_PROD_1.webp",
-    "imgAlt": "Fractional Distillation"
+    "imgAlt": "Fractional Distillation",
+    "MetaDescription": "The Fractional Distillation process is the primary method of obtaining Liquefied Petroleum Gas from its source, Crude oil. Get to know more about this process. ",
+    "MetaOgTitle": "LPG Production ",
+    "MetaOgDescription": "The Fractional Distillation process is the primary method of obtaining Liquefied Petroleum Gas from its source, Crude oil. Get to know more about this process. ",
+    "MetaKeyWords": "LPG Production, Fractional Distillation, Crude Oil, Oil Refinery, Natural Gas "
   },
   {
     "Id": 3,
@@ -36,7 +44,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/LPG-SAFE_1.webp",
-    "imgAlt": "LPG Safety"
+    "imgAlt": "LPG Safety",
+    "MetaDescription": "Safety Precautions when using Liquefied Petroleum Gas (LPG). ",
+    "MetaOgTitle": "LPG Safety ",
+    "MetaOgDescription": "Safety Precautions when using Liquefied Petroleum Gas (LPG). ",
+    "MetaKeyWords": "LPG Safety, LPG Leak Detection, Fire Prevention, Leak Prevention, LPG Maintenance, Scheduled Maintenance "
   },
   {
     "Id": 4,
@@ -49,7 +61,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/Leak-01.webp",
-    "imgAlt": "Leak Detection"
+    "imgAlt": "Leak Detection",
+    "MetaDescription": "Detecting Gas leaks in your home can save you from potential firebreakouts, and fire related damages. Find out how leak detectors work. ",
+    "MetaOgTitle": "Gas Leak Detection ",
+    "MetaOgDescription": "Detecting Gas leaks in your home can save you from potential firebreakouts, and fire related damages. Find out how leak detectors work. ",
+    "MetaKeyWords": "LPG Leak Detection, LPG Fire prevention, LPG Safety, Leak Detector, Solenoid Valve, Emergency Push Button "
   },
   {
     "Id": 5,
@@ -62,7 +78,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/fire-safety.webp",
-    "imgAlt": "Fire Prevention"
+    "imgAlt": "Fire Prevention",
+    "MetaDescription": "LPG related Fires and Prevention Measures. How do you go about ensuring that fires are prevented when using LPG? ",
+    "MetaOgTitle": "Fire Prevention Measures ",
+    "MetaOgDescription": "LPG related Fires and Prevention Measures. How do you go about ensuring that fires are prevented when using LPG? ",
+    "MetaKeyWords": "LPG Fires, LPG Fire Prevention, Fire Prevention, LPG Maintenance, LPG Safety, LPG Uses"
   },
   {
     "Id": 6,
@@ -75,7 +95,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/plastic-pipes.webp",
-    "imgAlt": "PexPipes"
+    "imgAlt": "PexPipes",
+    "MetaDescription": "Plastic pipes are commonly used for LPG gas reticulation. Their size and material is dependent on their use. Get to know more. ",
+    "MetaOgTitle": "Plastic Pipes for LPG ",
+    "MetaOgDescription": "Plastic pipes are commonly used for LPG gas reticulation. Their size and material is dependent on their use. Get to know more. ",
+    "MetaKeyWords": "Plastic pipes, Gas Pipes, PE pipes, Pex/Al Pipe, Wavin, Valsir"
   },
   {
     "Id": 7,
@@ -88,7 +112,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/lpg-accessories.webp",
-    "imgAlt": "Gas Accessories"
+    "imgAlt": "Gas Accessories",
+    "MetaDescription": "What is a Smart Gas meter? What is a Vaporizer? Find out more on their functions and uses.",
+    "MetaOgTitle": "Gas Accesories: Smart Gas meter and Vaporizer ",
+    "MetaOgDescription": "What is a Smart Gas meter? What is a Vaporizer? Find out more on their functions and uses.",
+    "MetaKeyWords": "LPG Accessories, LPG Smart Gas Meter, Gas Meter, Vaporizer"
   },
   {
     "Id": 8,
@@ -101,7 +129,11 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/ndt.webp",
-    "imgAlt": "Non-destructive Testing"
+    "imgAlt": "Non-destructive Testing",
+    "MetaDescription": "Non-destructive testing (NDT) is a method of evaluating the integrity of LPG tanks without causing damage to the tank. Find out more. ",
+    "MetaOgTitle": "Non-Destructive Testing ",
+    "MetaOgDescription": "Non-destructive testing (NDT) is a method of evaluating the integrity of LPG tanks without causing damage to the tank. Find out more. ",
+    "MetaKeyWords": "Non-Destructive Testing, Ultrasonic Testing, Radiographic Testing, Magnetic Particle Testing, Liquid Penetrant Testing, Eddy Current Testing, Visual Testing, Infrared Thermography, Acoustic Emission Testing, Leak Testing, Electromagnetic Testing "
   },
   {
     "Id": 9,
@@ -114,6 +146,10 @@
     "PublishedDate": "2023-01-25T12:00:00",
     "UpdatedDate": "2023-12-27T12:00:00",
     "img": "/lib/src/bg/earthing-tanks.webp",
-    "imgAlt": "Tank Earthing"
+    "imgAlt": "Tank Earthing",
+    "MetaDescription": "Installing Earthing to an LPG Tank. The process behind it. Find out more. ",
+    "MetaOgTitle": "LPG Tank Earthing",
+    "MetaOgDescription": "Installing Earthing to an LPG Tank. The process behind it. Find out more. ",
+    "MetaKeyWords": "LPG Tanks, LPG Earthing, Bonding, Static Electricity, Lightning Protection, Electrical Safety, Grounding, Explosion Protection "
   }
 ]

@@ -5961,10 +5961,6 @@
       "PackagePath": "staticwebassets\\lib\\src\\project\\FP-01.webp"
     },
     {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-02.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\FP-02.jpg"
-    },
-    {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\FP-02.webp",
       "PackagePath": "staticwebassets\\lib\\src\\project\\FP-02.webp"
     },
@@ -5983,10 +5979,6 @@
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\Image-6.webp",
       "PackagePath": "staticwebassets\\lib\\src\\project\\Image-6.webp"
-    },
-    {
-      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.jpg",
-      "PackagePath": "staticwebassets\\lib\\src\\project\\LP-04.jpg"
     },
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\lib\\src\\project\\LP-04.webp",
@@ -16723,6 +16715,14 @@
     {
       "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\package.json",
       "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "D:\\Git\\Websites\\Hessal-Webapp\\HessalWebapp\\HessalWebapp\\wwwroot\\sitemap.xml",
+      "PackagePath": "staticwebassets\\sitemap.xml"
     },
     {
       "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.HessalWebapp.Microsoft.AspNetCore.StaticWebAssets.props",

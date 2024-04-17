@@ -19,6 +19,10 @@ namespace HessalWebapp.Models
         public string ImageUrl { get; set; }
         [JsonPropertyName("imgAlt")]
         public string ImageAlt { get; set; }
+        public string MetaDescription { get; set; }
+        public string MetaOgTitle { get; set; }
+        public string MetaOgDescription { get; set; }
+        public string MetaKeyWords { get; set; }
         public override string ToString() => JsonSerializer.Serialize<BlogPost>(this);
     }
 }
